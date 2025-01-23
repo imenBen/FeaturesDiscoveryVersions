@@ -1,0 +1,724 @@
+[
+  {
+    "types": [],
+    "ID": 0,
+    "children": [
+      {
+        "name": "2",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.textui.TestRunner, junit.util.StringUtil]",
+        "intent": "[String extractClassName(String className)]",
+        "ID": 30336885,
+        "children": []
+      },
+      {
+        "name": "9",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 0.5
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.extensions.TestDecorator",
+            "coverage": 0.25
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 0.5
+          }
+        ],
+        "extent": "[junit.extensions.ActiveTest, junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.extensions.TestSetup, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+        "intent": "[void run(TestResult result)]",
+        "ID": 61259835,
+        "children": [
+          {
+            "name": "26",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+                "anchor": "junit.framework.Test",
+                "coverage": 1.0
+              },
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "junit.extensions.TestDecorator",
+                "coverage": 0.5
+              },
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+                "anchor": "junit.framework.Test",
+                "coverage": 1.0
+              }
+            ],
+            "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+            "intent": "[int countTestCases(), void run(TestResult result)]",
+            "ID": 15046744,
+            "children": [
+              {
+                "name": "30",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "30",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+            "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+            "ID": 122509339,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "10",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.swingui.AboutDialog, junit.swingui.TestRunner]",
+        "intent": "[JLabel createLogo()]",
+        "ID": 208189806,
+        "children": []
+      },
+      {
+        "name": "11",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.TestListener",
+            "coverage": 0.75
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.swingui.TestBrowser",
+            "coverage": 0.27272728
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.framework.TestResult",
+            "coverage": 0.15
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.swingui.TestRunner",
+            "coverage": 0.05172414
+          }
+        ],
+        "extent": "[junit.framework.TestListener, junit.framework.TestResult, junit.swingui.TestBrowser, junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.TestRunner]",
+        "intent": "[void addError(Test test, Throwable t), void endTest(Test test), void startTest(Test test)]",
+        "ID": 233632880,
+        "children": [
+          {
+            "name": "36",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+                "anchor": "junit.framework.TestListener",
+                "coverage": 1.0
+              },
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+                "anchor": "junit.swingui.TestBrowser",
+                "coverage": 0.36363637
+              },
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+                "anchor": "junit.swingui.TestRunner",
+                "coverage": 0.06896552
+              }
+            ],
+            "extent": "[junit.framework.TestListener, junit.swingui.TestBrowser, junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.TestRunner]",
+            "intent": "[void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void endTest(Test test), void startTest(Test test)]",
+            "ID": 24363187,
+            "children": [
+              {
+                "name": "38",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "38",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.TestRunner]",
+            "intent": "[TestResult createTestResult(), void TestRunner(), void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void endTest(Test test), void main(String[] args), void startTest(Test test)]",
+            "ID": 35093225,
+            "children": [
+              {
+                "name": "40",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "extent": "[junit.swingui.TestRunner, junit.ui.TestRunner]",
+                "intent": "[Class loadSuiteClass(String suiteClassName), Image loadFrameIcon(), Test getTest(String suiteClassName), TestResult createTestResult(), boolean isErrorSelected(), void TestRunner(), void about(), void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void appendFailure(String kind, Test test, Throwable t), void endTest(Test test), void main(String[] args), void rerun(), void reset(), void run(), void runFailed(String message), void runSuite(), void setSuiteName(String suite), void showErrorTrace(), void showInfo(String message), void showStatus(String status), void start(String[] args, TestSuiteLoader loader), void startTest(Test test)]",
+                "ID": 120089896,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "12",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.ui.ProgressBar",
+            "coverage": 0.11111111
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.swingui.ProgressBar",
+            "coverage": 0.11111111
+          }
+        ],
+        "extent": "[junit.swingui.ProgressBar, junit.swingui.TestRunner, junit.ui.ProgressBar, junit.ui.TestRunner]",
+        "intent": "[void reset()]",
+        "ID": 38652489,
+        "children": [
+          {
+            "name": "42",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.swingui.ProgressBar, junit.ui.ProgressBar]",
+            "intent": "[Color getStatusColor(), int scale(int value), void ProgressBar(), void paintBackground(Graphics g), void paintStatus(Graphics g), void paintStep(int startX, int endX), void reset(), void start(int total), void step(boolean successful)]",
+            "ID": 158678742,
+            "children": []
+          },
+          {
+            "name": "40",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "14",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.swingui.LoadingTestRunner, junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.LoadingTestRunner, junit.ui.TestRunner]",
+        "intent": "[void main(String[] args)]",
+        "ID": 96557586,
+        "children": [
+          {
+            "name": "38",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "15",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.swingui.TraceFrame, junit.ui.TraceFrame]",
+        "intent": "[void TraceFrame(), void showTrace(Throwable t)]",
+        "ID": 114735677,
+        "children": []
+      },
+      {
+        "name": "16",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.util.TestSuiteLoader",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[junit.util.ReloadingTestSuiteLoader, junit.util.StandardTestSuiteLoader, junit.util.TestSuiteLoader]",
+        "intent": "[Class load(String suiteClassName), Class reload(Class aClass)]",
+        "ID": 235273218,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "2",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.textui.TestRunner, junit.util.StringUtil]",
+    "intent": "[String extractClassName(String className)]",
+    "ID": 30336885,
+    "children": []
+  },
+  {
+    "name": "9",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 0.5
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.extensions.TestDecorator",
+        "coverage": 0.25
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 0.5
+      }
+    ],
+    "extent": "[junit.extensions.ActiveTest, junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.extensions.TestSetup, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+    "intent": "[void run(TestResult result)]",
+    "ID": 61259835,
+    "children": [
+      {
+        "name": "26",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 1.0
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.extensions.TestDecorator",
+            "coverage": 0.5
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+        "intent": "[int countTestCases(), void run(TestResult result)]",
+        "ID": 15046744,
+        "children": [
+          {
+            "name": "30",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "30",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+        "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+        "ID": 122509339,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "10",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.swingui.AboutDialog, junit.swingui.TestRunner]",
+    "intent": "[JLabel createLogo()]",
+    "ID": 208189806,
+    "children": []
+  },
+  {
+    "name": "11",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.TestListener",
+        "coverage": 0.75
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.swingui.TestBrowser",
+        "coverage": 0.27272728
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.framework.TestResult",
+        "coverage": 0.15
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.swingui.TestRunner",
+        "coverage": 0.05172414
+      }
+    ],
+    "extent": "[junit.framework.TestListener, junit.framework.TestResult, junit.swingui.TestBrowser, junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.TestRunner]",
+    "intent": "[void addError(Test test, Throwable t), void endTest(Test test), void startTest(Test test)]",
+    "ID": 233632880,
+    "children": [
+      {
+        "name": "36",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.TestListener",
+            "coverage": 1.0
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.swingui.TestBrowser",
+            "coverage": 0.36363637
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.swingui.TestRunner",
+            "coverage": 0.06896552
+          }
+        ],
+        "extent": "[junit.framework.TestListener, junit.swingui.TestBrowser, junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.TestRunner]",
+        "intent": "[void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void endTest(Test test), void startTest(Test test)]",
+        "ID": 24363187,
+        "children": [
+          {
+            "name": "38",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "38",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.TestRunner]",
+        "intent": "[TestResult createTestResult(), void TestRunner(), void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void endTest(Test test), void main(String[] args), void startTest(Test test)]",
+        "ID": 35093225,
+        "children": [
+          {
+            "name": "40",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.swingui.TestRunner, junit.ui.TestRunner]",
+            "intent": "[Class loadSuiteClass(String suiteClassName), Image loadFrameIcon(), Test getTest(String suiteClassName), TestResult createTestResult(), boolean isErrorSelected(), void TestRunner(), void about(), void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void appendFailure(String kind, Test test, Throwable t), void endTest(Test test), void main(String[] args), void rerun(), void reset(), void run(), void runFailed(String message), void runSuite(), void setSuiteName(String suite), void showErrorTrace(), void showInfo(String message), void showStatus(String status), void start(String[] args, TestSuiteLoader loader), void startTest(Test test)]",
+            "ID": 120089896,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "12",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.ui.ProgressBar",
+        "coverage": 0.11111111
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.swingui.ProgressBar",
+        "coverage": 0.11111111
+      }
+    ],
+    "extent": "[junit.swingui.ProgressBar, junit.swingui.TestRunner, junit.ui.ProgressBar, junit.ui.TestRunner]",
+    "intent": "[void reset()]",
+    "ID": 38652489,
+    "children": [
+      {
+        "name": "42",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.swingui.ProgressBar, junit.ui.ProgressBar]",
+        "intent": "[Color getStatusColor(), int scale(int value), void ProgressBar(), void paintBackground(Graphics g), void paintStatus(Graphics g), void paintStep(int startX, int endX), void reset(), void start(int total), void step(boolean successful)]",
+        "ID": 158678742,
+        "children": []
+      },
+      {
+        "name": "40",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "14",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.swingui.LoadingTestRunner, junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.LoadingTestRunner, junit.ui.TestRunner]",
+    "intent": "[void main(String[] args)]",
+    "ID": 96557586,
+    "children": [
+      {
+        "name": "38",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "15",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.swingui.TraceFrame, junit.ui.TraceFrame]",
+    "intent": "[void TraceFrame(), void showTrace(Throwable t)]",
+    "ID": 114735677,
+    "children": []
+  },
+  {
+    "name": "16",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.util.TestSuiteLoader",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[junit.util.ReloadingTestSuiteLoader, junit.util.StandardTestSuiteLoader, junit.util.TestSuiteLoader]",
+    "intent": "[Class load(String suiteClassName), Class reload(Class aClass)]",
+    "ID": 235273218,
+    "children": []
+  },
+  {
+    "name": "26",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 1.0
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.extensions.TestDecorator",
+        "coverage": 0.5
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+    "intent": "[int countTestCases(), void run(TestResult result)]",
+    "ID": 15046744,
+    "children": [
+      {
+        "name": "30",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "30",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+    "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+    "ID": 122509339,
+    "children": []
+  },
+  {
+    "name": "36",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.TestListener",
+        "coverage": 1.0
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.swingui.TestBrowser",
+        "coverage": 0.36363637
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.swingui.TestRunner",
+        "coverage": 0.06896552
+      }
+    ],
+    "extent": "[junit.framework.TestListener, junit.swingui.TestBrowser, junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.TestRunner]",
+    "intent": "[void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void endTest(Test test), void startTest(Test test)]",
+    "ID": 24363187,
+    "children": [
+      {
+        "name": "38",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "38",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.swingui.TestRunner, junit.textui.TestRunner, junit.ui.TestRunner]",
+    "intent": "[TestResult createTestResult(), void TestRunner(), void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void endTest(Test test), void main(String[] args), void startTest(Test test)]",
+    "ID": 35093225,
+    "children": [
+      {
+        "name": "40",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.swingui.TestRunner, junit.ui.TestRunner]",
+        "intent": "[Class loadSuiteClass(String suiteClassName), Image loadFrameIcon(), Test getTest(String suiteClassName), TestResult createTestResult(), boolean isErrorSelected(), void TestRunner(), void about(), void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void appendFailure(String kind, Test test, Throwable t), void endTest(Test test), void main(String[] args), void rerun(), void reset(), void run(), void runFailed(String message), void runSuite(), void setSuiteName(String suite), void showErrorTrace(), void showInfo(String message), void showStatus(String status), void start(String[] args, TestSuiteLoader loader), void startTest(Test test)]",
+        "ID": 120089896,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "40",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.swingui.TestRunner, junit.ui.TestRunner]",
+    "intent": "[Class loadSuiteClass(String suiteClassName), Image loadFrameIcon(), Test getTest(String suiteClassName), TestResult createTestResult(), boolean isErrorSelected(), void TestRunner(), void about(), void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void appendFailure(String kind, Test test, Throwable t), void endTest(Test test), void main(String[] args), void rerun(), void reset(), void run(), void runFailed(String message), void runSuite(), void setSuiteName(String suite), void showErrorTrace(), void showInfo(String message), void showStatus(String status), void start(String[] args, TestSuiteLoader loader), void startTest(Test test)]",
+    "ID": 120089896,
+    "children": []
+  },
+  {
+    "name": "42",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.swingui.ProgressBar, junit.ui.ProgressBar]",
+    "intent": "[Color getStatusColor(), int scale(int value), void ProgressBar(), void paintBackground(Graphics g), void paintStatus(Graphics g), void paintStep(int startX, int endX), void reset(), void start(int total), void step(boolean successful)]",
+    "ID": 158678742,
+    "children": []
+  }
+]

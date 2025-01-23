@@ -1,0 +1,3390 @@
+[
+  {
+    "types": [],
+    "ID": 0,
+    "children": [
+      {
+        "name": "0",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.42857143
+          }
+        ],
+        "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+        "intent": "[void testFailure(Failure failure), void testFinished(Description description), void testRunFinished(Result result)]",
+        "ID": 68874423,
+        "children": [
+          {
+            "name": "94",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runner.notification.RunListener",
+                "coverage": 0.85714287
+              }
+            ],
+            "extent": "[org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+            "intent": "[void testAssumptionFailure(Failure failure), void testFailure(Failure failure), void testFinished(Description description), void testIgnored(Description description), void testRunFinished(Result result), void testRunStarted(Description description)]",
+            "ID": 63375858,
+            "children": []
+          },
+          {
+            "name": "95",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runner.notification.RunListener",
+                "coverage": 0.5714286
+              }
+            ],
+            "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.runner.notification.RunListener]",
+            "intent": "[void testFailure(Failure failure), void testFinished(Description description), void testRunFinished(Result result), void testStarted(Description description)]",
+            "ID": 74022512,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "2",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.JUnit4TestAdapter, org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+        "intent": "[Description getDescription(), void filter(Filter filter), void sort(Sorter sorter)]",
+        "ID": 101181559,
+        "children": [
+          {
+            "name": "102",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+            "intent": "[Description getDescription(), void filter(Filter filter), void run(RunNotifier notifier), void sort(Sorter sorter)]",
+            "ID": 74177619,
+            "children": [
+              {
+                "name": "115",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "extent": "[org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+                "intent": "[Description getDescription(), Object createTest(), String getName(), TestClass getTestClass(), void filter(Filter filter), void run(RunNotifier notifier), void sort(Sorter sorter), void validate()]",
+                "ID": 71825601,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "103",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.framework.Test, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+            "intent": "[Description getDescription(), String getName(), void filter(Filter filter), void sort(Sorter sorter)]",
+            "ID": 38375322,
+            "children": [
+              {
+                "name": "115",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "107",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.framework.Test, org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+            "intent": "[Class\u003c?\u003e getTestClass(), Description getDescription(), Description removeIgnored(Description description), List\u003cTest\u003e getTests(), String getName(), Test getTest(), boolean isIgnored(Description description), int countTestCases(), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void filter(Filter filter), void run(TestResult result), void sort(Sorter sorter)]",
+            "ID": 129042851,
+            "children": [
+              {
+                "name": "109",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              },
+              {
+                "name": "113",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "extent": "[org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+                "intent": "[Annotation[] classAnnotations(), Annotation[] getRunnerAnnotations(), Annotation[] testAnnotations(Method method), Class\u003c? extends Throwable\u003e getExpectedException(Test annotation), Class\u003c?\u003e getExcludedCategory(Class\u003c?\u003e klass), Class\u003c?\u003e getIncludedCategory(Class\u003c?\u003e klass), Class\u003c?\u003e getTestClass(), Class\u003c?\u003e[] getAnnotatedClasses(Class\u003c?\u003e klass), Comparator\u003c? super T\u003e comparator(), Description describeChild(FrameworkMethod method), Description describeChild(Runner child), Description describeChild(T child), Description getDescription(), Description makeDescription(Test test), Description methodDescription(Method method), Description removeIgnored(Description description), Exception parametersMethodReturnedWrongType(), FrameworkMethod getParametersMethod(), Iterable\u003cObject[]\u003e allParameters(), List\u003cFrameworkField\u003e getAnnotatedFieldsByParameter(), List\u003cFrameworkMethod\u003e computeTestMethods(), List\u003cFrameworkMethod\u003e getChildren(), List\u003cMethod\u003e getTestMethods(), List\u003cRunner\u003e getChildren(), List\u003cT\u003e getChildren(), List\u003cT\u003e getFilteredChildren(), List\u003cTest\u003e getTests(), List\u003cTestRule\u003e classRules(), List\u003cTestRule\u003e getTestRules(Object target), List\u003corg.junit.rules.MethodRule\u003e getMethodRules(Object target), List\u003corg.junit.rules.MethodRule\u003e rules(Object target), Object createTest(), Object createTestUsingConstructorInjection(), Object createTestUsingFieldInjection(), Runner emptySuite(), Statement childrenInvoker(RunNotifier notifier), Statement classBlock(RunNotifier notifier), Statement methodBlock(FrameworkMethod method), Statement methodInvoker(FrameworkMethod method, Object test), Statement possiblyExpectingExceptions(FrameworkMethod method, Object test, Statement next), Statement withAfterClasses(Statement statement), Statement withAfters(FrameworkMethod method, Object target, Statement statement), Statement withBeforeClasses(Statement statement), Statement withBefores(FrameworkMethod method, Object target, Statement statement), Statement withClassRules(Statement statement), Statement withMethodRules(FrameworkMethod method, List\u003cTestRule\u003e testRules, Object target, Statement result), Statement withPotentialTimeout(FrameworkMethod method, Object test, Statement next), Statement withRules(FrameworkMethod method, Object target, Statement statement), Statement withTestRules(FrameworkMethod method, List\u003cTestRule\u003e testRules, Statement statement), String createSuiteDescription(TestSuite ts), String getName(), String nameFor(String namePattern, int index, Object[] parameters), String testName(FrameworkMethod method), String testName(Method method), Test getTest(), Test testFromSuiteMethod(Class\u003c?\u003e klass), TestClass getTestClass(), TestListener createAdaptingListener(RunNotifier notifier), TestMethod wrapMethod(Method method), boolean canHaveCategorizedChildren(Description description), boolean expectsException(Test annotation), boolean fieldsAreAnnotated(), boolean hasOneConstructor(), boolean isIgnored(Description description), boolean shouldRun(Filter filter, T each), int countTestCases(), long getTimeout(Test annotation), void AllTests(Class\u003c?\u003e klass), void BlockJUnit4ClassRunner(Class\u003c?\u003e klass), void Categories(Class\u003c?\u003e klass, RunnerBuilder builder), void Enclosed(Class\u003c?\u003e klass, RunnerBuilder builder), void JUnit38ClassRunner(Class\u003c?\u003e klass), void JUnit38ClassRunner(Test test), void JUnit4(Class\u003c?\u003e klass), void JUnit4ClassRunner(Class\u003c?\u003e klass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void Parameterized(Class\u003c?\u003e klass), void ParentRunner(Class\u003c?\u003e testClass), void Suite(Class\u003c?\u003e klass, Class\u003c?\u003e[] suiteClasses), void Suite(Class\u003c?\u003e klass, List\u003cRunner\u003e runners), void Suite(Class\u003c?\u003e klass, RunnerBuilder builder), void Suite(RunnerBuilder builder, Class\u003c?\u003e klass, Class\u003c?\u003e[] suiteClasses), void Suite(RunnerBuilder builder, Class\u003c?\u003e[] classes), void SuiteMethod(Class\u003c?\u003e klass), void TestClassRunnerForParameters(Class\u003c?\u003e type, Object[] parameters, String name), void Theories(Class\u003c?\u003e klass), void assertNoCategorizedDescendentsOfUncategorizeableParents(Description description), void assertNoDescendantsHaveCategoryAnnotations(Description description), void collectInitializationErrors(List\u003cThrowable\u003e errors), void createRunnersForParameters(Iterable\u003cObject[]\u003e allParameters, String namePattern), void filter(Filter filter), void invokeTestMethod(Method method, RunNotifier notifier), void run(RunNotifier notifier), void run(TestResult result), void runChild(FrameworkMethod method, RunNotifier notifier), void runChild(Runner runner, RunNotifier notifier), void runChild(T child, RunNotifier notifier), void runChildren(RunNotifier notifier), void runLeaf(Statement statement, Description description, RunNotifier notifier), void runMethods(RunNotifier notifier), void setScheduler(RunnerScheduler scheduler), void setTest(Test test), void sort(Sorter sorter), void sortChild(T child), void testAborted(RunNotifier notifier, Description description, Throwable e), void validate(), void validateClassRules(List\u003cThrowable\u003e errors), void validateConstructor(List\u003cThrowable\u003e errors), void validateDataPointFields(List\u003cThrowable\u003e errors), void validateFields(List\u003cThrowable\u003e errors), void validateInstanceMethods(List\u003cThrowable\u003e errors), void validateMethods(List\u003cThrowable\u003e errors), void validateNoNonStaticInnerClass(List\u003cThrowable\u003e errors), void validateOnlyOneConstructor(List\u003cThrowable\u003e errors), void validatePublicVoidNoArgMethods(Class\u003c? extends Annotation\u003e annotation, boolean isStatic, List\u003cThrowable\u003e errors), void validateTestMethods(List\u003cThrowable\u003e errors), void validateZeroArgConstructor(List\u003cThrowable\u003e errors)]",
+                "ID": 117633934,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "113",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "109",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.framework.Test, org.junit.runner.Describable]",
+            "intent": "[Class\u003c?\u003e getTestClass(), Description getDescription(), Description removeIgnored(Description description), List\u003cTest\u003e getTests(), String getName(), Test getTest(), boolean isIgnored(Description description), int countTestCases(), int testCount(), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void JUnit4TestCaseFacade(Description description), void filter(Filter filter), void run(TestResult result), void sort(Sorter sorter)]",
+            "ID": 178719183,
+            "children": []
+          },
+          {
+            "name": "107",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "4",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.runner.BaseTestRunner, junit.textui.ResultPrinter, org.junit.internal.TextListener]",
+        "intent": "[String elapsedTimeAsString(long runTime)]",
+        "ID": 135708502,
+        "children": [
+          {
+            "name": "118",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.runner.BaseTestRunner, junit.textui.ResultPrinter]",
+            "intent": "[String elapsedTimeAsString(long runTime), void addError(Test test, Throwable t), void addFailure(Test test, AssertionFailedError t), void endTest(Test test), void startTest(Test test)]",
+            "ID": 142528744,
+            "children": []
+          },
+          {
+            "name": "119",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.textui.ResultPrinter, org.junit.internal.TextListener]",
+            "intent": "[PrintStream getWriter(), String elapsedTimeAsString(long runTime), void printHeader(long runTime)]",
+            "ID": 81859073,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "6",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.runners.InitializationError, org.junit.runners.model.InitializationError]",
+        "intent": "[List\u003cThrowable\u003e getCauses(), void InitializationError(List\u003cThrowable\u003e errors), void InitializationError(String string)]",
+        "ID": 264755373,
+        "children": []
+      },
+      {
+        "name": "9",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.Description",
+            "coverage": 0.041666668
+          }
+        ],
+        "extent": "[org.junit.rules.TestName, org.junit.runner.Description]",
+        "intent": "[String getMethodName()]",
+        "ID": 110128007,
+        "children": []
+      },
+      {
+        "name": "10",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.runner.BaseTestRunner",
+            "coverage": 0.06896552
+          }
+        ],
+        "extent": "[junit.runner.BaseTestRunner, junit.runner.TestRunListener, junit.textui.TestRunner]",
+        "intent": "[void testEnded(String testName), void testStarted(String testName)]",
+        "ID": 109573763,
+        "children": []
+      },
+      {
+        "name": "12",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.2857143
+          }
+        ],
+        "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.internal.TextListener, org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+        "intent": "[void testFailure(Failure failure), void testRunFinished(Result result)]",
+        "ID": 255294866,
+        "children": [
+          {
+            "name": "131",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runner.notification.RunListener",
+                "coverage": 0.42857143
+              }
+            ],
+            "extent": "[org.junit.internal.TextListener, org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+            "intent": "[void testFailure(Failure failure), void testIgnored(Description description), void testRunFinished(Result result)]",
+            "ID": 75626984,
+            "children": [
+              {
+                "name": "94",
+                "types": [
+                  {
+                    "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                    "anchor": "org.junit.runner.notification.RunListener",
+                    "coverage": 0.85714287
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "132",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runner.notification.RunListener",
+                "coverage": 0.42857143
+              }
+            ],
+            "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.internal.TextListener, org.junit.runner.notification.RunListener]",
+            "intent": "[void testFailure(Failure failure), void testRunFinished(Result result), void testStarted(Description description)]",
+            "ID": 75894693,
+            "children": [
+              {
+                "name": "95",
+                "types": [
+                  {
+                    "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                    "anchor": "org.junit.runner.notification.RunListener",
+                    "coverage": 0.5714286
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "0",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runner.notification.RunListener",
+                "coverage": 0.42857143
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "15",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.TestListener",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[junit.framework.TestListener, junit.framework.TestResult, junit.runner.BaseTestRunner, junit.textui.ResultPrinter, org.junit.internal.runners.JUnit38ClassRunner.OldTestClassAdaptingListener]",
+        "intent": "[void addError(Test test, Throwable t), void addFailure(Test test, AssertionFailedError t), void endTest(Test test), void startTest(Test test)]",
+        "ID": 79808283,
+        "children": [
+          {
+            "name": "118",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "18",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "org.junit.rules.TestRule",
+            "coverage": 1.0
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.rules.RuleChain",
+            "coverage": 0.2
+          }
+        ],
+        "extent": "[org.junit.rules.ExternalResource, org.junit.rules.RuleChain, org.junit.rules.TestRule, org.junit.rules.TestWatcher, org.junit.rules.Timeout, org.junit.rules.Verifier]",
+        "intent": "[Statement apply(Statement base, Description description)]",
+        "ID": 61846868,
+        "children": []
+      },
+      {
+        "name": "21",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.FrameworkMember",
+            "coverage": 0.14285715
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.ParentRunner",
+            "coverage": 0.035714287
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runners.model.TestClass",
+            "coverage": 0.071428575
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.internal.runners.TestClass",
+            "coverage": 0.083333336
+          }
+        ],
+        "extent": "[junit.framework.TestCase, junit.framework.TestSuite, org.junit.internal.runners.JUnit4ClassRunner, org.junit.internal.runners.TestClass, org.junit.runners.Parameterized.TestClassRunnerForParameters, org.junit.runners.ParentRunner\u003cT\u003e, org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod, org.junit.runners.model.TestClass]",
+        "intent": "[String getName()]",
+        "ID": 112967060,
+        "children": [
+          {
+            "name": "139",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runners.model.FrameworkMember",
+                "coverage": 0.71428573
+              }
+            ],
+            "extent": "[org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod]",
+            "intent": "[Annotation[] getAnnotations(), Class\u003c?\u003e getType(), String getName(), boolean isPublic(), boolean isStatic()]",
+            "ID": 15254145,
+            "children": []
+          },
+          {
+            "name": "142",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[org.junit.internal.runners.TestClass, org.junit.runners.model.TestClass]",
+            "intent": "[Class\u003c?\u003e getJavaClass(), List\u003cClass\u003c?\u003e\u003e getSuperClasses(Class\u003c?\u003e testClass), String getName(), boolean runsTopToBottom(Class\u003c? extends Annotation\u003e annotation), void TestClass(Class\u003c?\u003e klass)]",
+            "ID": 252080662,
+            "children": []
+          },
+          {
+            "name": "144",
+            "types": [
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runners.model.FrameworkMember",
+                "coverage": 0.2857143
+              }
+            ],
+            "extent": "[org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod, org.junit.runners.model.TestClass]",
+            "intent": "[Annotation[] getAnnotations(), String getName()]",
+            "ID": 6553624,
+            "children": [
+              {
+                "name": "139",
+                "types": [
+                  {
+                    "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                    "anchor": "org.junit.runners.model.FrameworkMember",
+                    "coverage": 0.71428573
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "69",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+                "anchor": "org.junit.internal.runners.TestClass",
+                "coverage": 0.16666667
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "103",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "150",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.framework.Assert, junit.framework.Test, org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+            "intent": "[String getName(), Test getTest(), int countTestCases(), void run(TestResult result)]",
+            "ID": 113412829,
+            "children": [
+              {
+                "name": "154",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "extent": "[junit.framework.Assert, junit.framework.Test]",
+                "intent": "[String format(String message, Object expected, Object actual), String getName(), Test getTest(), TestResult createResult(), TestResult run(), int countTestCases(), void RepeatedTest(Test test, int repeat), void TestCase(), void TestCase(String name), void TestDecorator(Test test), void TestSetup(Test test), void assertEquals(Object expected, Object actual), void assertEquals(String expected, String actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, String expected, String actual), void assertEquals(String message, boolean expected, boolean actual), void assertEquals(String message, byte expected, byte actual), void assertEquals(String message, char expected, char actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, int expected, int actual), void assertEquals(String message, long expected, long actual), void assertEquals(String message, short expected, short actual), void assertEquals(boolean expected, boolean actual), void assertEquals(byte expected, byte actual), void assertEquals(char expected, char actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(int expected, int actual), void assertEquals(long expected, long actual), void assertEquals(short expected, short actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNotSame(Object expected, Object actual), void assertNotSame(String message, Object expected, Object actual), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void basicRun(TestResult result), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message), void run(TestResult result), void runBare(), void runTest(), void setName(String name), void setUp(), void tearDown()]",
+                "ID": 237439306,
+                "children": []
+              },
+              {
+                "name": "107",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "152",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.framework.TestCase, junit.framework.TestSuite]",
+            "intent": "[String getName(), int countTestCases(), void run(TestResult result), void setName(String name)]",
+            "ID": 183751022,
+            "children": []
+          },
+          {
+            "name": "107",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "109",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "154",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "150",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "115",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "22",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.runners.MethodRoadie, org.junit.runner.notification.RunNotifier.SafeNotifier]",
+        "intent": "[void run()]",
+        "ID": 81256333,
+        "children": []
+      },
+      {
+        "name": "24",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.experimental.categories.Category, org.junit.runners.Suite.SuiteClasses]",
+        "intent": "[Class\u003c?\u003e[] value()]",
+        "ID": 82045995,
+        "children": []
+      },
+      {
+        "name": "26",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.Description",
+            "coverage": 0.041666668
+          }
+        ],
+        "extent": "[org.junit.experimental.theories.ParameterSignature, org.junit.runner.Description, org.junit.runners.model.FrameworkMethod]",
+        "intent": "[T getAnnotation(Class\u003cT\u003e annotationType)]",
+        "ID": 32828997,
+        "children": [
+          {
+            "name": "161",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[org.junit.experimental.theories.ParameterSignature, org.junit.runners.model.FrameworkMethod]",
+            "intent": "[Class\u003c?\u003e getType(), T getAnnotation(Class\u003cT\u003e annotationType)]",
+            "ID": 96599769,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "28",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.experimental.categories.Categories.ExcludeCategory, org.junit.experimental.categories.Categories.IncludeCategory]",
+        "intent": "[Class\u003c?\u003e value()]",
+        "ID": 62374598,
+        "children": []
+      },
+      {
+        "name": "30",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.BlockJUnit4ClassRunner",
+            "coverage": 0.03125
+          }
+        ],
+        "extent": "[org.junit.experimental.theories.Theories, org.junit.runners.BlockJUnit4ClassRunner, org.junit.runners.Parameterized.TestClassRunnerForParameters]",
+        "intent": "[void validateConstructor(List\u003cThrowable\u003e errors)]",
+        "ID": 119954082,
+        "children": []
+      },
+      {
+        "name": "31",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.MultipleFailureException",
+            "coverage": 0.33333334
+          }
+        ],
+        "extent": "[org.junit.internal.runners.model.MultipleFailureException, org.junit.runners.model.MultipleFailureException]",
+        "intent": "[void MultipleFailureException(List\u003cThrowable\u003e errors)]",
+        "ID": 39293053,
+        "children": []
+      },
+      {
+        "name": "38",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.Description",
+            "coverage": 0.041666668
+          }
+        ],
+        "extent": "[junit.framework.JUnit4TestAdapter, org.junit.runner.Description]",
+        "intent": "[Class\u003c?\u003e getTestClass()]",
+        "ID": 50657302,
+        "children": [
+          {
+            "name": "165",
+            "types": [
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+                "anchor": "org.junit.runner.Description",
+                "coverage": 0.083333336
+              }
+            ],
+            "extent": "[junit.framework.Test, org.junit.runner.Describable, org.junit.runner.Description]",
+            "intent": "[Class\u003c?\u003e getTestClass(), int testCount()]",
+            "ID": 117977160,
+            "children": [
+              {
+                "name": "109",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "107",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "40",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 0.5
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.framework.TestSuite",
+            "coverage": 0.04
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.extensions.TestDecorator",
+            "coverage": 0.2
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 0.5
+          }
+        ],
+        "extent": "[junit.extensions.ActiveTestSuite, junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.extensions.TestSetup, junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+        "intent": "[void run(TestResult result)]",
+        "ID": 224490238,
+        "children": [
+          {
+            "name": "169",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+                "anchor": "junit.framework.Test",
+                "coverage": 1.0
+              },
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "junit.extensions.TestDecorator",
+                "coverage": 0.4
+              },
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+                "anchor": "junit.framework.Test",
+                "coverage": 1.0
+              }
+            ],
+            "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+            "intent": "[int countTestCases(), void run(TestResult result)]",
+            "ID": 197531035,
+            "children": [
+              {
+                "name": "171",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              },
+              {
+                "name": "174",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "extent": "[junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade]",
+                "intent": "[Description getDescription(), int countTestCases(), void run(TestResult result)]",
+                "ID": 154552113,
+                "children": [
+                  {
+                    "name": "107",
+                    "types": [
+                      {
+                        "FeatureTypeName": "ADHOC",
+                        "coverage": 0.0
+                      }
+                    ],
+                    "ID": 0,
+                    "children": []
+                  },
+                  {
+                    "name": "109",
+                    "types": [
+                      {
+                        "FeatureTypeName": "ADHOC",
+                        "coverage": 0.0
+                      }
+                    ],
+                    "ID": 0,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "109",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "107",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "150",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "154",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "171",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+            "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+            "ID": 122509339,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "42",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.internal.ComparisonCriteria",
+            "coverage": 0.25
+          }
+        ],
+        "extent": "[org.junit.internal.ComparisonCriteria, org.junit.internal.ExactComparisonCriteria, org.junit.internal.InexactComparisonCriteria]",
+        "intent": "[void assertElementsEqual(Object expected, Object actual)]",
+        "ID": 67380083,
+        "children": []
+      },
+      {
+        "name": "43",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.manipulation.Sorter",
+            "coverage": 0.33333334
+          }
+        ],
+        "extent": "[org.junit.experimental.max.MaxHistory.TestComparator, org.junit.runner.manipulation.Sorter]",
+        "intent": "[int compare(Description o1, Description o2)]",
+        "ID": 258806335,
+        "children": []
+      },
+      {
+        "name": "44",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.runner.Version, junit.textui.TestRunner, org.junit.runner.JUnitCore]",
+        "intent": "[void main(String[] args)]",
+        "ID": 56653911,
+        "children": []
+      },
+      {
+        "name": "45",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.experimental.theories.ParameterSupplier",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[org.junit.experimental.theories.ParameterSupplier, org.junit.experimental.theories.internal.AllMembersSupplier, org.junit.experimental.theories.suppliers.TestedOnSupplier]",
+        "intent": "[List\u003cPotentialAssignment\u003e getValueSources(ParameterSignature sig)]",
+        "ID": 49077914,
+        "children": []
+      },
+      {
+        "name": "48",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.ComparisonCompactor, org.junit.ComparisonFailure.ComparisonCompactor]",
+        "intent": "[String compact(String message), String compactString(String source), String computeCommonPrefix(), String computeCommonSuffix(), boolean areStringsEqual(), void ComparisonCompactor(int contextLength, String expected, String actual), void findCommonPrefix(), void findCommonSuffix()]",
+        "ID": 6207330,
+        "children": []
+      },
+      {
+        "name": "49",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.notification.RunNotifier",
+            "coverage": 0.16666667
+          }
+        ],
+        "extent": "[org.junit.runner.JUnitCore, org.junit.runner.notification.RunNotifier]",
+        "intent": "[void addListener(RunListener listener), void removeListener(RunListener listener)]",
+        "ID": 15228303,
+        "children": []
+      },
+      {
+        "name": "52",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.matchers.StacktracePrintingMatcher\u003cT extends Throwable\u003e, org.junit.internal.matchers.ThrowableCauseMatcher\u003cT extends Throwable\u003e, org.junit.internal.matchers.ThrowableMessageMatcher\u003cT extends Throwable\u003e]",
+        "intent": "[boolean matchesSafely(T item), void describeMismatchSafely(T item, Description description), void describeTo(Description description)]",
+        "ID": 117721521,
+        "children": []
+      },
+      {
+        "name": "53",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.matchers.StacktracePrintingMatcher\u003cT extends Throwable\u003e, org.junit.matchers.JUnitMatchers]",
+        "intent": "[Matcher\u003cT\u003e isException(Matcher\u003cT\u003e exceptionMatcher), Matcher\u003cT\u003e isThrowable(Matcher\u003cT\u003e throwableMatcher)]",
+        "ID": 263559752,
+        "children": []
+      },
+      {
+        "name": "55",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.framework.Assert",
+            "coverage": 0.61538464
+          }
+        ],
+        "extent": "[junit.framework.Assert, junit.framework.TestCase, org.junit.Assert]",
+        "intent": "[String format(String message, Object expected, Object actual), void assertEquals(Object expected, Object actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, long expected, long actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(long expected, long actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message)]",
+        "ID": 204607392,
+        "children": [
+          {
+            "name": "188",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.framework.Assert, org.junit.Assert]",
+            "intent": "[String format(String message, Object expected, Object actual), void Assert(), void assertEquals(Object expected, Object actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, long expected, long actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(long expected, long actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message)]",
+            "ID": 53039869,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "57",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "org.junit.runner.Describable",
+            "coverage": 1.0
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.Runner",
+            "coverage": 0.33333334
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.Runner",
+            "coverage": 0.33333334
+          }
+        ],
+        "extent": "[junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade, org.junit.internal.builders.IgnoredClassRunner, org.junit.internal.runners.ErrorReportingRunner, org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runner.Describable, org.junit.runner.Runner, org.junit.runner.notification.Failure, org.junit.runners.ParentRunner\u003cT\u003e]",
+        "intent": "[Description getDescription()]",
+        "ID": 151942373,
+        "children": [
+          {
+            "name": "2",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "174",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "192",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runner.Runner",
+                "coverage": 0.6666667
+              }
+            ],
+            "extent": "[org.junit.internal.builders.IgnoredClassRunner, org.junit.internal.runners.ErrorReportingRunner, org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runner.Runner, org.junit.runners.ParentRunner\u003cT\u003e]",
+            "intent": "[Description getDescription(), void run(RunNotifier notifier)]",
+            "ID": 259371186,
+            "children": [
+              {
+                "name": "102",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "59",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.RunnerBuilder",
+            "coverage": 0.14285715
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runners.model.RunnerBuilder",
+            "coverage": 0.14285715
+          }
+        ],
+        "extent": "[org.junit.internal.builders.AllDefaultPossibilitiesBuilder, org.junit.internal.builders.AnnotatedBuilder, org.junit.internal.builders.IgnoredBuilder, org.junit.internal.builders.JUnit3Builder, org.junit.internal.builders.JUnit4Builder, org.junit.runners.model.RunnerBuilder]",
+        "intent": "[Runner runnerForClass(Class\u003c?\u003e testClass)]",
+        "ID": 35157709,
+        "children": []
+      },
+      {
+        "name": "61",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.experimental.theories.Theories.TheoryAnchor, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+        "intent": "[TestClass getTestClass()]",
+        "ID": 44592159,
+        "children": [
+          {
+            "name": "115",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "63",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.FrameworkMember",
+            "coverage": 0.14285715
+          }
+        ],
+        "extent": "[org.junit.experimental.theories.ParameterSignature, org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod]",
+        "intent": "[Class\u003c?\u003e getType()]",
+        "ID": 145141083,
+        "children": [
+          {
+            "name": "161",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "139",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runners.model.FrameworkMember",
+                "coverage": 0.71428573
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "65",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.TestCase, org.junit.internal.runners.MethodRoadie]",
+        "intent": "[void runTest()]",
+        "ID": 118468290,
+        "children": []
+      },
+      {
+        "name": "67",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "org.junit.internal.JUnitSystem",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[org.junit.internal.JUnitSystem, org.junit.internal.RealSystem]",
+        "intent": "[PrintStream out()]",
+        "ID": 148647343,
+        "children": []
+      },
+      {
+        "name": "69",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.internal.runners.TestClass",
+            "coverage": 0.16666667
+          }
+        ],
+        "extent": "[org.junit.internal.runners.JUnit4ClassRunner, org.junit.internal.runners.TestClass]",
+        "intent": "[List\u003cMethod\u003e getTestMethods(), String getName()]",
+        "ID": 3130204,
+        "children": []
+      },
+      {
+        "name": "70",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.Request",
+            "coverage": 0.09090909
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.Request",
+            "coverage": 0.09090909
+          }
+        ],
+        "extent": "[org.junit.internal.requests.ClassRequest, org.junit.internal.requests.FilterRequest, org.junit.internal.requests.SortingRequest, org.junit.runner.Request]",
+        "intent": "[Runner getRunner()]",
+        "ID": 4678667,
+        "children": []
+      },
+      {
+        "name": "72",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.ComparisonFailure, org.junit.ComparisonFailure]",
+        "intent": "[String getActual(), String getExpected(), void ComparisonFailure(String message, String expected, String actual)]",
+        "ID": 22034701,
+        "children": []
+      },
+      {
+        "name": "73",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.TestResult, org.junit.experimental.results.PrintableResult]",
+        "intent": "[int failureCount()]",
+        "ID": 231005165,
+        "children": []
+      },
+      {
+        "name": "74",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.internal.runners.TestClass",
+            "coverage": 0.16666667
+          }
+        ],
+        "extent": "[org.junit.internal.runners.TestClass, org.junit.internal.runners.TestMethod]",
+        "intent": "[List\u003cMethod\u003e getAfters(), List\u003cMethod\u003e getBefores()]",
+        "ID": 259208319,
+        "children": []
+      },
+      {
+        "name": "77",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.runners.ClassRoadie, org.junit.internal.runners.model.EachTestNotifier]",
+        "intent": "[void addFailure(Throwable targetException)]",
+        "ID": 241336679,
+        "children": []
+      },
+      {
+        "name": "78",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.runners.ClassRoadie, org.junit.internal.runners.MethodRoadie]",
+        "intent": "[void runAfters(), void runBefores()]",
+        "ID": 254940079,
+        "children": []
+      },
+      {
+        "name": "80",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.Statement",
+            "coverage": 1.0
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runners.model.Statement",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[org.junit.experimental.theories.Theories.TheoryAnchor, org.junit.internal.runners.statements.ExpectException, org.junit.internal.runners.statements.Fail, org.junit.internal.runners.statements.FailOnTimeout, org.junit.internal.runners.statements.InvokeMethod, org.junit.internal.runners.statements.RunAfters, org.junit.internal.runners.statements.RunBefores, org.junit.rules.ExpectedException.ExpectedExceptionStatement, org.junit.rules.RunRules, org.junit.runners.model.Statement]",
+        "intent": "[void evaluate()]",
+        "ID": 198216299,
+        "children": []
+      },
+      {
+        "name": "82",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.experimental.max.MaxCore, org.junit.runner.JUnitCore]",
+        "intent": "[Result run(Request request)]",
+        "ID": 197197270,
+        "children": []
+      },
+      {
+        "name": "83",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.builders.NullBuilder, org.junit.internal.builders.SuiteMethodBuilder]",
+        "intent": "[Runner runnerForClass(Class\u003c?\u003e each)]",
+        "ID": 212811281,
+        "children": []
+      },
+      {
+        "name": "90",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.AssumptionViolatedException, org.junit.internal.matchers.StacktracePrintingMatcher\u003cT extends Throwable\u003e, org.junit.internal.matchers.ThrowableCauseMatcher\u003cT extends Throwable\u003e, org.junit.internal.matchers.ThrowableMessageMatcher\u003cT extends Throwable\u003e]",
+        "intent": "[void describeTo(Description description)]",
+        "ID": 20472630,
+        "children": [
+          {
+            "name": "52",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "92",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.TestResult, org.junit.runner.Result]",
+        "intent": "[boolean wasSuccessful()]",
+        "ID": 31275219,
+        "children": []
+      },
+      {
+        "name": "165",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.Description",
+            "coverage": 0.083333336
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "0",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.notification.RunListener",
+        "coverage": 0.42857143
+      }
+    ],
+    "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+    "intent": "[void testFailure(Failure failure), void testFinished(Description description), void testRunFinished(Result result)]",
+    "ID": 68874423,
+    "children": [
+      {
+        "name": "94",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.85714287
+          }
+        ],
+        "extent": "[org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+        "intent": "[void testAssumptionFailure(Failure failure), void testFailure(Failure failure), void testFinished(Description description), void testIgnored(Description description), void testRunFinished(Result result), void testRunStarted(Description description)]",
+        "ID": 63375858,
+        "children": []
+      },
+      {
+        "name": "95",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.5714286
+          }
+        ],
+        "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.runner.notification.RunListener]",
+        "intent": "[void testFailure(Failure failure), void testFinished(Description description), void testRunFinished(Result result), void testStarted(Description description)]",
+        "ID": 74022512,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "2",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.JUnit4TestAdapter, org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+    "intent": "[Description getDescription(), void filter(Filter filter), void sort(Sorter sorter)]",
+    "ID": 101181559,
+    "children": [
+      {
+        "name": "102",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+        "intent": "[Description getDescription(), void filter(Filter filter), void run(RunNotifier notifier), void sort(Sorter sorter)]",
+        "ID": 74177619,
+        "children": [
+          {
+            "name": "115",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+            "intent": "[Description getDescription(), Object createTest(), String getName(), TestClass getTestClass(), void filter(Filter filter), void run(RunNotifier notifier), void sort(Sorter sorter), void validate()]",
+            "ID": 71825601,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "103",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.Test, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+        "intent": "[Description getDescription(), String getName(), void filter(Filter filter), void sort(Sorter sorter)]",
+        "ID": 38375322,
+        "children": [
+          {
+            "name": "115",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "107",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.Test, org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+        "intent": "[Class\u003c?\u003e getTestClass(), Description getDescription(), Description removeIgnored(Description description), List\u003cTest\u003e getTests(), String getName(), Test getTest(), boolean isIgnored(Description description), int countTestCases(), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void filter(Filter filter), void run(TestResult result), void sort(Sorter sorter)]",
+        "ID": 129042851,
+        "children": [
+          {
+            "name": "109",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "113",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+            "intent": "[Annotation[] classAnnotations(), Annotation[] getRunnerAnnotations(), Annotation[] testAnnotations(Method method), Class\u003c? extends Throwable\u003e getExpectedException(Test annotation), Class\u003c?\u003e getExcludedCategory(Class\u003c?\u003e klass), Class\u003c?\u003e getIncludedCategory(Class\u003c?\u003e klass), Class\u003c?\u003e getTestClass(), Class\u003c?\u003e[] getAnnotatedClasses(Class\u003c?\u003e klass), Comparator\u003c? super T\u003e comparator(), Description describeChild(FrameworkMethod method), Description describeChild(Runner child), Description describeChild(T child), Description getDescription(), Description makeDescription(Test test), Description methodDescription(Method method), Description removeIgnored(Description description), Exception parametersMethodReturnedWrongType(), FrameworkMethod getParametersMethod(), Iterable\u003cObject[]\u003e allParameters(), List\u003cFrameworkField\u003e getAnnotatedFieldsByParameter(), List\u003cFrameworkMethod\u003e computeTestMethods(), List\u003cFrameworkMethod\u003e getChildren(), List\u003cMethod\u003e getTestMethods(), List\u003cRunner\u003e getChildren(), List\u003cT\u003e getChildren(), List\u003cT\u003e getFilteredChildren(), List\u003cTest\u003e getTests(), List\u003cTestRule\u003e classRules(), List\u003cTestRule\u003e getTestRules(Object target), List\u003corg.junit.rules.MethodRule\u003e getMethodRules(Object target), List\u003corg.junit.rules.MethodRule\u003e rules(Object target), Object createTest(), Object createTestUsingConstructorInjection(), Object createTestUsingFieldInjection(), Runner emptySuite(), Statement childrenInvoker(RunNotifier notifier), Statement classBlock(RunNotifier notifier), Statement methodBlock(FrameworkMethod method), Statement methodInvoker(FrameworkMethod method, Object test), Statement possiblyExpectingExceptions(FrameworkMethod method, Object test, Statement next), Statement withAfterClasses(Statement statement), Statement withAfters(FrameworkMethod method, Object target, Statement statement), Statement withBeforeClasses(Statement statement), Statement withBefores(FrameworkMethod method, Object target, Statement statement), Statement withClassRules(Statement statement), Statement withMethodRules(FrameworkMethod method, List\u003cTestRule\u003e testRules, Object target, Statement result), Statement withPotentialTimeout(FrameworkMethod method, Object test, Statement next), Statement withRules(FrameworkMethod method, Object target, Statement statement), Statement withTestRules(FrameworkMethod method, List\u003cTestRule\u003e testRules, Statement statement), String createSuiteDescription(TestSuite ts), String getName(), String nameFor(String namePattern, int index, Object[] parameters), String testName(FrameworkMethod method), String testName(Method method), Test getTest(), Test testFromSuiteMethod(Class\u003c?\u003e klass), TestClass getTestClass(), TestListener createAdaptingListener(RunNotifier notifier), TestMethod wrapMethod(Method method), boolean canHaveCategorizedChildren(Description description), boolean expectsException(Test annotation), boolean fieldsAreAnnotated(), boolean hasOneConstructor(), boolean isIgnored(Description description), boolean shouldRun(Filter filter, T each), int countTestCases(), long getTimeout(Test annotation), void AllTests(Class\u003c?\u003e klass), void BlockJUnit4ClassRunner(Class\u003c?\u003e klass), void Categories(Class\u003c?\u003e klass, RunnerBuilder builder), void Enclosed(Class\u003c?\u003e klass, RunnerBuilder builder), void JUnit38ClassRunner(Class\u003c?\u003e klass), void JUnit38ClassRunner(Test test), void JUnit4(Class\u003c?\u003e klass), void JUnit4ClassRunner(Class\u003c?\u003e klass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void Parameterized(Class\u003c?\u003e klass), void ParentRunner(Class\u003c?\u003e testClass), void Suite(Class\u003c?\u003e klass, Class\u003c?\u003e[] suiteClasses), void Suite(Class\u003c?\u003e klass, List\u003cRunner\u003e runners), void Suite(Class\u003c?\u003e klass, RunnerBuilder builder), void Suite(RunnerBuilder builder, Class\u003c?\u003e klass, Class\u003c?\u003e[] suiteClasses), void Suite(RunnerBuilder builder, Class\u003c?\u003e[] classes), void SuiteMethod(Class\u003c?\u003e klass), void TestClassRunnerForParameters(Class\u003c?\u003e type, Object[] parameters, String name), void Theories(Class\u003c?\u003e klass), void assertNoCategorizedDescendentsOfUncategorizeableParents(Description description), void assertNoDescendantsHaveCategoryAnnotations(Description description), void collectInitializationErrors(List\u003cThrowable\u003e errors), void createRunnersForParameters(Iterable\u003cObject[]\u003e allParameters, String namePattern), void filter(Filter filter), void invokeTestMethod(Method method, RunNotifier notifier), void run(RunNotifier notifier), void run(TestResult result), void runChild(FrameworkMethod method, RunNotifier notifier), void runChild(Runner runner, RunNotifier notifier), void runChild(T child, RunNotifier notifier), void runChildren(RunNotifier notifier), void runLeaf(Statement statement, Description description, RunNotifier notifier), void runMethods(RunNotifier notifier), void setScheduler(RunnerScheduler scheduler), void setTest(Test test), void sort(Sorter sorter), void sortChild(T child), void testAborted(RunNotifier notifier, Description description, Throwable e), void validate(), void validateClassRules(List\u003cThrowable\u003e errors), void validateConstructor(List\u003cThrowable\u003e errors), void validateDataPointFields(List\u003cThrowable\u003e errors), void validateFields(List\u003cThrowable\u003e errors), void validateInstanceMethods(List\u003cThrowable\u003e errors), void validateMethods(List\u003cThrowable\u003e errors), void validateNoNonStaticInnerClass(List\u003cThrowable\u003e errors), void validateOnlyOneConstructor(List\u003cThrowable\u003e errors), void validatePublicVoidNoArgMethods(Class\u003c? extends Annotation\u003e annotation, boolean isStatic, List\u003cThrowable\u003e errors), void validateTestMethods(List\u003cThrowable\u003e errors), void validateZeroArgConstructor(List\u003cThrowable\u003e errors)]",
+            "ID": 117633934,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "113",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "109",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.Test, org.junit.runner.Describable]",
+        "intent": "[Class\u003c?\u003e getTestClass(), Description getDescription(), Description removeIgnored(Description description), List\u003cTest\u003e getTests(), String getName(), Test getTest(), boolean isIgnored(Description description), int countTestCases(), int testCount(), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void JUnit4TestCaseFacade(Description description), void filter(Filter filter), void run(TestResult result), void sort(Sorter sorter)]",
+        "ID": 178719183,
+        "children": []
+      },
+      {
+        "name": "107",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "4",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.runner.BaseTestRunner, junit.textui.ResultPrinter, org.junit.internal.TextListener]",
+    "intent": "[String elapsedTimeAsString(long runTime)]",
+    "ID": 135708502,
+    "children": [
+      {
+        "name": "118",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.runner.BaseTestRunner, junit.textui.ResultPrinter]",
+        "intent": "[String elapsedTimeAsString(long runTime), void addError(Test test, Throwable t), void addFailure(Test test, AssertionFailedError t), void endTest(Test test), void startTest(Test test)]",
+        "ID": 142528744,
+        "children": []
+      },
+      {
+        "name": "119",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.textui.ResultPrinter, org.junit.internal.TextListener]",
+        "intent": "[PrintStream getWriter(), String elapsedTimeAsString(long runTime), void printHeader(long runTime)]",
+        "ID": 81859073,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "6",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.runners.InitializationError, org.junit.runners.model.InitializationError]",
+    "intent": "[List\u003cThrowable\u003e getCauses(), void InitializationError(List\u003cThrowable\u003e errors), void InitializationError(String string)]",
+    "ID": 264755373,
+    "children": []
+  },
+  {
+    "name": "9",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runner.Description",
+        "coverage": 0.041666668
+      }
+    ],
+    "extent": "[org.junit.rules.TestName, org.junit.runner.Description]",
+    "intent": "[String getMethodName()]",
+    "ID": 110128007,
+    "children": []
+  },
+  {
+    "name": "10",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.runner.BaseTestRunner",
+        "coverage": 0.06896552
+      }
+    ],
+    "extent": "[junit.runner.BaseTestRunner, junit.runner.TestRunListener, junit.textui.TestRunner]",
+    "intent": "[void testEnded(String testName), void testStarted(String testName)]",
+    "ID": 109573763,
+    "children": []
+  },
+  {
+    "name": "12",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.notification.RunListener",
+        "coverage": 0.2857143
+      }
+    ],
+    "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.internal.TextListener, org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+    "intent": "[void testFailure(Failure failure), void testRunFinished(Result result)]",
+    "ID": 255294866,
+    "children": [
+      {
+        "name": "131",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.42857143
+          }
+        ],
+        "extent": "[org.junit.internal.TextListener, org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+        "intent": "[void testFailure(Failure failure), void testIgnored(Description description), void testRunFinished(Result result)]",
+        "ID": 75626984,
+        "children": [
+          {
+            "name": "94",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runner.notification.RunListener",
+                "coverage": 0.85714287
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "132",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.42857143
+          }
+        ],
+        "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.internal.TextListener, org.junit.runner.notification.RunListener]",
+        "intent": "[void testFailure(Failure failure), void testRunFinished(Result result), void testStarted(Description description)]",
+        "ID": 75894693,
+        "children": [
+          {
+            "name": "95",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runner.notification.RunListener",
+                "coverage": 0.5714286
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "0",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.42857143
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "15",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.TestListener",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[junit.framework.TestListener, junit.framework.TestResult, junit.runner.BaseTestRunner, junit.textui.ResultPrinter, org.junit.internal.runners.JUnit38ClassRunner.OldTestClassAdaptingListener]",
+    "intent": "[void addError(Test test, Throwable t), void addFailure(Test test, AssertionFailedError t), void endTest(Test test), void startTest(Test test)]",
+    "ID": 79808283,
+    "children": [
+      {
+        "name": "118",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "18",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "org.junit.rules.TestRule",
+        "coverage": 1.0
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.rules.RuleChain",
+        "coverage": 0.2
+      }
+    ],
+    "extent": "[org.junit.rules.ExternalResource, org.junit.rules.RuleChain, org.junit.rules.TestRule, org.junit.rules.TestWatcher, org.junit.rules.Timeout, org.junit.rules.Verifier]",
+    "intent": "[Statement apply(Statement base, Description description)]",
+    "ID": 61846868,
+    "children": []
+  },
+  {
+    "name": "21",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.model.FrameworkMember",
+        "coverage": 0.14285715
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.ParentRunner",
+        "coverage": 0.035714287
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runners.model.TestClass",
+        "coverage": 0.071428575
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.internal.runners.TestClass",
+        "coverage": 0.083333336
+      }
+    ],
+    "extent": "[junit.framework.TestCase, junit.framework.TestSuite, org.junit.internal.runners.JUnit4ClassRunner, org.junit.internal.runners.TestClass, org.junit.runners.Parameterized.TestClassRunnerForParameters, org.junit.runners.ParentRunner\u003cT\u003e, org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod, org.junit.runners.model.TestClass]",
+    "intent": "[String getName()]",
+    "ID": 112967060,
+    "children": [
+      {
+        "name": "139",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.FrameworkMember",
+            "coverage": 0.71428573
+          }
+        ],
+        "extent": "[org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod]",
+        "intent": "[Annotation[] getAnnotations(), Class\u003c?\u003e getType(), String getName(), boolean isPublic(), boolean isStatic()]",
+        "ID": 15254145,
+        "children": []
+      },
+      {
+        "name": "142",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.runners.TestClass, org.junit.runners.model.TestClass]",
+        "intent": "[Class\u003c?\u003e getJavaClass(), List\u003cClass\u003c?\u003e\u003e getSuperClasses(Class\u003c?\u003e testClass), String getName(), boolean runsTopToBottom(Class\u003c? extends Annotation\u003e annotation), void TestClass(Class\u003c?\u003e klass)]",
+        "ID": 252080662,
+        "children": []
+      },
+      {
+        "name": "144",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.FrameworkMember",
+            "coverage": 0.2857143
+          }
+        ],
+        "extent": "[org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod, org.junit.runners.model.TestClass]",
+        "intent": "[Annotation[] getAnnotations(), String getName()]",
+        "ID": 6553624,
+        "children": [
+          {
+            "name": "139",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "org.junit.runners.model.FrameworkMember",
+                "coverage": 0.71428573
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "69",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.internal.runners.TestClass",
+            "coverage": 0.16666667
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "103",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "150",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.Assert, junit.framework.Test, org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+        "intent": "[String getName(), Test getTest(), int countTestCases(), void run(TestResult result)]",
+        "ID": 113412829,
+        "children": [
+          {
+            "name": "154",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.framework.Assert, junit.framework.Test]",
+            "intent": "[String format(String message, Object expected, Object actual), String getName(), Test getTest(), TestResult createResult(), TestResult run(), int countTestCases(), void RepeatedTest(Test test, int repeat), void TestCase(), void TestCase(String name), void TestDecorator(Test test), void TestSetup(Test test), void assertEquals(Object expected, Object actual), void assertEquals(String expected, String actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, String expected, String actual), void assertEquals(String message, boolean expected, boolean actual), void assertEquals(String message, byte expected, byte actual), void assertEquals(String message, char expected, char actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, int expected, int actual), void assertEquals(String message, long expected, long actual), void assertEquals(String message, short expected, short actual), void assertEquals(boolean expected, boolean actual), void assertEquals(byte expected, byte actual), void assertEquals(char expected, char actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(int expected, int actual), void assertEquals(long expected, long actual), void assertEquals(short expected, short actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNotSame(Object expected, Object actual), void assertNotSame(String message, Object expected, Object actual), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void basicRun(TestResult result), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message), void run(TestResult result), void runBare(), void runTest(), void setName(String name), void setUp(), void tearDown()]",
+            "ID": 237439306,
+            "children": []
+          },
+          {
+            "name": "107",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "152",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.TestCase, junit.framework.TestSuite]",
+        "intent": "[String getName(), int countTestCases(), void run(TestResult result), void setName(String name)]",
+        "ID": 183751022,
+        "children": []
+      },
+      {
+        "name": "107",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "109",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "154",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "150",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "115",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "22",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.runners.MethodRoadie, org.junit.runner.notification.RunNotifier.SafeNotifier]",
+    "intent": "[void run()]",
+    "ID": 81256333,
+    "children": []
+  },
+  {
+    "name": "24",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.experimental.categories.Category, org.junit.runners.Suite.SuiteClasses]",
+    "intent": "[Class\u003c?\u003e[] value()]",
+    "ID": 82045995,
+    "children": []
+  },
+  {
+    "name": "26",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runner.Description",
+        "coverage": 0.041666668
+      }
+    ],
+    "extent": "[org.junit.experimental.theories.ParameterSignature, org.junit.runner.Description, org.junit.runners.model.FrameworkMethod]",
+    "intent": "[T getAnnotation(Class\u003cT\u003e annotationType)]",
+    "ID": 32828997,
+    "children": [
+      {
+        "name": "161",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.experimental.theories.ParameterSignature, org.junit.runners.model.FrameworkMethod]",
+        "intent": "[Class\u003c?\u003e getType(), T getAnnotation(Class\u003cT\u003e annotationType)]",
+        "ID": 96599769,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "28",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.experimental.categories.Categories.ExcludeCategory, org.junit.experimental.categories.Categories.IncludeCategory]",
+    "intent": "[Class\u003c?\u003e value()]",
+    "ID": 62374598,
+    "children": []
+  },
+  {
+    "name": "30",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.BlockJUnit4ClassRunner",
+        "coverage": 0.03125
+      }
+    ],
+    "extent": "[org.junit.experimental.theories.Theories, org.junit.runners.BlockJUnit4ClassRunner, org.junit.runners.Parameterized.TestClassRunnerForParameters]",
+    "intent": "[void validateConstructor(List\u003cThrowable\u003e errors)]",
+    "ID": 119954082,
+    "children": []
+  },
+  {
+    "name": "31",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.model.MultipleFailureException",
+        "coverage": 0.33333334
+      }
+    ],
+    "extent": "[org.junit.internal.runners.model.MultipleFailureException, org.junit.runners.model.MultipleFailureException]",
+    "intent": "[void MultipleFailureException(List\u003cThrowable\u003e errors)]",
+    "ID": 39293053,
+    "children": []
+  },
+  {
+    "name": "38",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runner.Description",
+        "coverage": 0.041666668
+      }
+    ],
+    "extent": "[junit.framework.JUnit4TestAdapter, org.junit.runner.Description]",
+    "intent": "[Class\u003c?\u003e getTestClass()]",
+    "ID": 50657302,
+    "children": [
+      {
+        "name": "165",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "org.junit.runner.Description",
+            "coverage": 0.083333336
+          }
+        ],
+        "extent": "[junit.framework.Test, org.junit.runner.Describable, org.junit.runner.Description]",
+        "intent": "[Class\u003c?\u003e getTestClass(), int testCount()]",
+        "ID": 117977160,
+        "children": [
+          {
+            "name": "109",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "107",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "40",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 0.5
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.framework.TestSuite",
+        "coverage": 0.04
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.extensions.TestDecorator",
+        "coverage": 0.2
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 0.5
+      }
+    ],
+    "extent": "[junit.extensions.ActiveTestSuite, junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.extensions.TestSetup, junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+    "intent": "[void run(TestResult result)]",
+    "ID": 224490238,
+    "children": [
+      {
+        "name": "169",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 1.0
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.extensions.TestDecorator",
+            "coverage": 0.4
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+        "intent": "[int countTestCases(), void run(TestResult result)]",
+        "ID": 197531035,
+        "children": [
+          {
+            "name": "171",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "174",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade]",
+            "intent": "[Description getDescription(), int countTestCases(), void run(TestResult result)]",
+            "ID": 154552113,
+            "children": [
+              {
+                "name": "107",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              },
+              {
+                "name": "109",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "109",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "107",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "150",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "154",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "171",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+        "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+        "ID": 122509339,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "42",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.internal.ComparisonCriteria",
+        "coverage": 0.25
+      }
+    ],
+    "extent": "[org.junit.internal.ComparisonCriteria, org.junit.internal.ExactComparisonCriteria, org.junit.internal.InexactComparisonCriteria]",
+    "intent": "[void assertElementsEqual(Object expected, Object actual)]",
+    "ID": 67380083,
+    "children": []
+  },
+  {
+    "name": "43",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runner.manipulation.Sorter",
+        "coverage": 0.33333334
+      }
+    ],
+    "extent": "[org.junit.experimental.max.MaxHistory.TestComparator, org.junit.runner.manipulation.Sorter]",
+    "intent": "[int compare(Description o1, Description o2)]",
+    "ID": 258806335,
+    "children": []
+  },
+  {
+    "name": "44",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.runner.Version, junit.textui.TestRunner, org.junit.runner.JUnitCore]",
+    "intent": "[void main(String[] args)]",
+    "ID": 56653911,
+    "children": []
+  },
+  {
+    "name": "45",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.experimental.theories.ParameterSupplier",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[org.junit.experimental.theories.ParameterSupplier, org.junit.experimental.theories.internal.AllMembersSupplier, org.junit.experimental.theories.suppliers.TestedOnSupplier]",
+    "intent": "[List\u003cPotentialAssignment\u003e getValueSources(ParameterSignature sig)]",
+    "ID": 49077914,
+    "children": []
+  },
+  {
+    "name": "48",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.ComparisonCompactor, org.junit.ComparisonFailure.ComparisonCompactor]",
+    "intent": "[String compact(String message), String compactString(String source), String computeCommonPrefix(), String computeCommonSuffix(), boolean areStringsEqual(), void ComparisonCompactor(int contextLength, String expected, String actual), void findCommonPrefix(), void findCommonSuffix()]",
+    "ID": 6207330,
+    "children": []
+  },
+  {
+    "name": "49",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runner.notification.RunNotifier",
+        "coverage": 0.16666667
+      }
+    ],
+    "extent": "[org.junit.runner.JUnitCore, org.junit.runner.notification.RunNotifier]",
+    "intent": "[void addListener(RunListener listener), void removeListener(RunListener listener)]",
+    "ID": 15228303,
+    "children": []
+  },
+  {
+    "name": "52",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.matchers.StacktracePrintingMatcher\u003cT extends Throwable\u003e, org.junit.internal.matchers.ThrowableCauseMatcher\u003cT extends Throwable\u003e, org.junit.internal.matchers.ThrowableMessageMatcher\u003cT extends Throwable\u003e]",
+    "intent": "[boolean matchesSafely(T item), void describeMismatchSafely(T item, Description description), void describeTo(Description description)]",
+    "ID": 117721521,
+    "children": []
+  },
+  {
+    "name": "53",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.matchers.StacktracePrintingMatcher\u003cT extends Throwable\u003e, org.junit.matchers.JUnitMatchers]",
+    "intent": "[Matcher\u003cT\u003e isException(Matcher\u003cT\u003e exceptionMatcher), Matcher\u003cT\u003e isThrowable(Matcher\u003cT\u003e throwableMatcher)]",
+    "ID": 263559752,
+    "children": []
+  },
+  {
+    "name": "55",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.framework.Assert",
+        "coverage": 0.61538464
+      }
+    ],
+    "extent": "[junit.framework.Assert, junit.framework.TestCase, org.junit.Assert]",
+    "intent": "[String format(String message, Object expected, Object actual), void assertEquals(Object expected, Object actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, long expected, long actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(long expected, long actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message)]",
+    "ID": 204607392,
+    "children": [
+      {
+        "name": "188",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.Assert, org.junit.Assert]",
+        "intent": "[String format(String message, Object expected, Object actual), void Assert(), void assertEquals(Object expected, Object actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, long expected, long actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(long expected, long actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message)]",
+        "ID": 53039869,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "57",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "org.junit.runner.Describable",
+        "coverage": 1.0
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.Runner",
+        "coverage": 0.33333334
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runner.Runner",
+        "coverage": 0.33333334
+      }
+    ],
+    "extent": "[junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade, org.junit.internal.builders.IgnoredClassRunner, org.junit.internal.runners.ErrorReportingRunner, org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runner.Describable, org.junit.runner.Runner, org.junit.runner.notification.Failure, org.junit.runners.ParentRunner\u003cT\u003e]",
+    "intent": "[Description getDescription()]",
+    "ID": 151942373,
+    "children": [
+      {
+        "name": "2",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "174",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "192",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.Runner",
+            "coverage": 0.6666667
+          }
+        ],
+        "extent": "[org.junit.internal.builders.IgnoredClassRunner, org.junit.internal.runners.ErrorReportingRunner, org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runner.Runner, org.junit.runners.ParentRunner\u003cT\u003e]",
+        "intent": "[Description getDescription(), void run(RunNotifier notifier)]",
+        "ID": 259371186,
+        "children": [
+          {
+            "name": "102",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "59",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.model.RunnerBuilder",
+        "coverage": 0.14285715
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runners.model.RunnerBuilder",
+        "coverage": 0.14285715
+      }
+    ],
+    "extent": "[org.junit.internal.builders.AllDefaultPossibilitiesBuilder, org.junit.internal.builders.AnnotatedBuilder, org.junit.internal.builders.IgnoredBuilder, org.junit.internal.builders.JUnit3Builder, org.junit.internal.builders.JUnit4Builder, org.junit.runners.model.RunnerBuilder]",
+    "intent": "[Runner runnerForClass(Class\u003c?\u003e testClass)]",
+    "ID": 35157709,
+    "children": []
+  },
+  {
+    "name": "61",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.experimental.theories.Theories.TheoryAnchor, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+    "intent": "[TestClass getTestClass()]",
+    "ID": 44592159,
+    "children": [
+      {
+        "name": "115",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "63",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.model.FrameworkMember",
+        "coverage": 0.14285715
+      }
+    ],
+    "extent": "[org.junit.experimental.theories.ParameterSignature, org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod]",
+    "intent": "[Class\u003c?\u003e getType()]",
+    "ID": 145141083,
+    "children": [
+      {
+        "name": "161",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "139",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.FrameworkMember",
+            "coverage": 0.71428573
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "65",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.TestCase, org.junit.internal.runners.MethodRoadie]",
+    "intent": "[void runTest()]",
+    "ID": 118468290,
+    "children": []
+  },
+  {
+    "name": "67",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "org.junit.internal.JUnitSystem",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[org.junit.internal.JUnitSystem, org.junit.internal.RealSystem]",
+    "intent": "[PrintStream out()]",
+    "ID": 148647343,
+    "children": []
+  },
+  {
+    "name": "69",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.internal.runners.TestClass",
+        "coverage": 0.16666667
+      }
+    ],
+    "extent": "[org.junit.internal.runners.JUnit4ClassRunner, org.junit.internal.runners.TestClass]",
+    "intent": "[List\u003cMethod\u003e getTestMethods(), String getName()]",
+    "ID": 3130204,
+    "children": []
+  },
+  {
+    "name": "70",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.Request",
+        "coverage": 0.09090909
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runner.Request",
+        "coverage": 0.09090909
+      }
+    ],
+    "extent": "[org.junit.internal.requests.ClassRequest, org.junit.internal.requests.FilterRequest, org.junit.internal.requests.SortingRequest, org.junit.runner.Request]",
+    "intent": "[Runner getRunner()]",
+    "ID": 4678667,
+    "children": []
+  },
+  {
+    "name": "72",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.ComparisonFailure, org.junit.ComparisonFailure]",
+    "intent": "[String getActual(), String getExpected(), void ComparisonFailure(String message, String expected, String actual)]",
+    "ID": 22034701,
+    "children": []
+  },
+  {
+    "name": "73",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.TestResult, org.junit.experimental.results.PrintableResult]",
+    "intent": "[int failureCount()]",
+    "ID": 231005165,
+    "children": []
+  },
+  {
+    "name": "74",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.internal.runners.TestClass",
+        "coverage": 0.16666667
+      }
+    ],
+    "extent": "[org.junit.internal.runners.TestClass, org.junit.internal.runners.TestMethod]",
+    "intent": "[List\u003cMethod\u003e getAfters(), List\u003cMethod\u003e getBefores()]",
+    "ID": 259208319,
+    "children": []
+  },
+  {
+    "name": "77",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.runners.ClassRoadie, org.junit.internal.runners.model.EachTestNotifier]",
+    "intent": "[void addFailure(Throwable targetException)]",
+    "ID": 241336679,
+    "children": []
+  },
+  {
+    "name": "78",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.runners.ClassRoadie, org.junit.internal.runners.MethodRoadie]",
+    "intent": "[void runAfters(), void runBefores()]",
+    "ID": 254940079,
+    "children": []
+  },
+  {
+    "name": "80",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.model.Statement",
+        "coverage": 1.0
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runners.model.Statement",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[org.junit.experimental.theories.Theories.TheoryAnchor, org.junit.internal.runners.statements.ExpectException, org.junit.internal.runners.statements.Fail, org.junit.internal.runners.statements.FailOnTimeout, org.junit.internal.runners.statements.InvokeMethod, org.junit.internal.runners.statements.RunAfters, org.junit.internal.runners.statements.RunBefores, org.junit.rules.ExpectedException.ExpectedExceptionStatement, org.junit.rules.RunRules, org.junit.runners.model.Statement]",
+    "intent": "[void evaluate()]",
+    "ID": 198216299,
+    "children": []
+  },
+  {
+    "name": "82",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.experimental.max.MaxCore, org.junit.runner.JUnitCore]",
+    "intent": "[Result run(Request request)]",
+    "ID": 197197270,
+    "children": []
+  },
+  {
+    "name": "83",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.builders.NullBuilder, org.junit.internal.builders.SuiteMethodBuilder]",
+    "intent": "[Runner runnerForClass(Class\u003c?\u003e each)]",
+    "ID": 212811281,
+    "children": []
+  },
+  {
+    "name": "90",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.AssumptionViolatedException, org.junit.internal.matchers.StacktracePrintingMatcher\u003cT extends Throwable\u003e, org.junit.internal.matchers.ThrowableCauseMatcher\u003cT extends Throwable\u003e, org.junit.internal.matchers.ThrowableMessageMatcher\u003cT extends Throwable\u003e]",
+    "intent": "[void describeTo(Description description)]",
+    "ID": 20472630,
+    "children": [
+      {
+        "name": "52",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "92",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.TestResult, org.junit.runner.Result]",
+    "intent": "[boolean wasSuccessful()]",
+    "ID": 31275219,
+    "children": []
+  },
+  {
+    "name": "94",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.notification.RunListener",
+        "coverage": 0.85714287
+      }
+    ],
+    "extent": "[org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+    "intent": "[void testAssumptionFailure(Failure failure), void testFailure(Failure failure), void testFinished(Description description), void testIgnored(Description description), void testRunFinished(Result result), void testRunStarted(Description description)]",
+    "ID": 63375858,
+    "children": []
+  },
+  {
+    "name": "95",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.notification.RunListener",
+        "coverage": 0.5714286
+      }
+    ],
+    "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.runner.notification.RunListener]",
+    "intent": "[void testFailure(Failure failure), void testFinished(Description description), void testRunFinished(Result result), void testStarted(Description description)]",
+    "ID": 74022512,
+    "children": []
+  },
+  {
+    "name": "102",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+    "intent": "[Description getDescription(), void filter(Filter filter), void run(RunNotifier notifier), void sort(Sorter sorter)]",
+    "ID": 74177619,
+    "children": [
+      {
+        "name": "115",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+        "intent": "[Description getDescription(), Object createTest(), String getName(), TestClass getTestClass(), void filter(Filter filter), void run(RunNotifier notifier), void sort(Sorter sorter), void validate()]",
+        "ID": 71825601,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "103",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.Test, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+    "intent": "[Description getDescription(), String getName(), void filter(Filter filter), void sort(Sorter sorter)]",
+    "ID": 38375322,
+    "children": [
+      {
+        "name": "115",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "107",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.Test, org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+    "intent": "[Class\u003c?\u003e getTestClass(), Description getDescription(), Description removeIgnored(Description description), List\u003cTest\u003e getTests(), String getName(), Test getTest(), boolean isIgnored(Description description), int countTestCases(), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void filter(Filter filter), void run(TestResult result), void sort(Sorter sorter)]",
+    "ID": 129042851,
+    "children": [
+      {
+        "name": "109",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "113",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+        "intent": "[Annotation[] classAnnotations(), Annotation[] getRunnerAnnotations(), Annotation[] testAnnotations(Method method), Class\u003c? extends Throwable\u003e getExpectedException(Test annotation), Class\u003c?\u003e getExcludedCategory(Class\u003c?\u003e klass), Class\u003c?\u003e getIncludedCategory(Class\u003c?\u003e klass), Class\u003c?\u003e getTestClass(), Class\u003c?\u003e[] getAnnotatedClasses(Class\u003c?\u003e klass), Comparator\u003c? super T\u003e comparator(), Description describeChild(FrameworkMethod method), Description describeChild(Runner child), Description describeChild(T child), Description getDescription(), Description makeDescription(Test test), Description methodDescription(Method method), Description removeIgnored(Description description), Exception parametersMethodReturnedWrongType(), FrameworkMethod getParametersMethod(), Iterable\u003cObject[]\u003e allParameters(), List\u003cFrameworkField\u003e getAnnotatedFieldsByParameter(), List\u003cFrameworkMethod\u003e computeTestMethods(), List\u003cFrameworkMethod\u003e getChildren(), List\u003cMethod\u003e getTestMethods(), List\u003cRunner\u003e getChildren(), List\u003cT\u003e getChildren(), List\u003cT\u003e getFilteredChildren(), List\u003cTest\u003e getTests(), List\u003cTestRule\u003e classRules(), List\u003cTestRule\u003e getTestRules(Object target), List\u003corg.junit.rules.MethodRule\u003e getMethodRules(Object target), List\u003corg.junit.rules.MethodRule\u003e rules(Object target), Object createTest(), Object createTestUsingConstructorInjection(), Object createTestUsingFieldInjection(), Runner emptySuite(), Statement childrenInvoker(RunNotifier notifier), Statement classBlock(RunNotifier notifier), Statement methodBlock(FrameworkMethod method), Statement methodInvoker(FrameworkMethod method, Object test), Statement possiblyExpectingExceptions(FrameworkMethod method, Object test, Statement next), Statement withAfterClasses(Statement statement), Statement withAfters(FrameworkMethod method, Object target, Statement statement), Statement withBeforeClasses(Statement statement), Statement withBefores(FrameworkMethod method, Object target, Statement statement), Statement withClassRules(Statement statement), Statement withMethodRules(FrameworkMethod method, List\u003cTestRule\u003e testRules, Object target, Statement result), Statement withPotentialTimeout(FrameworkMethod method, Object test, Statement next), Statement withRules(FrameworkMethod method, Object target, Statement statement), Statement withTestRules(FrameworkMethod method, List\u003cTestRule\u003e testRules, Statement statement), String createSuiteDescription(TestSuite ts), String getName(), String nameFor(String namePattern, int index, Object[] parameters), String testName(FrameworkMethod method), String testName(Method method), Test getTest(), Test testFromSuiteMethod(Class\u003c?\u003e klass), TestClass getTestClass(), TestListener createAdaptingListener(RunNotifier notifier), TestMethod wrapMethod(Method method), boolean canHaveCategorizedChildren(Description description), boolean expectsException(Test annotation), boolean fieldsAreAnnotated(), boolean hasOneConstructor(), boolean isIgnored(Description description), boolean shouldRun(Filter filter, T each), int countTestCases(), long getTimeout(Test annotation), void AllTests(Class\u003c?\u003e klass), void BlockJUnit4ClassRunner(Class\u003c?\u003e klass), void Categories(Class\u003c?\u003e klass, RunnerBuilder builder), void Enclosed(Class\u003c?\u003e klass, RunnerBuilder builder), void JUnit38ClassRunner(Class\u003c?\u003e klass), void JUnit38ClassRunner(Test test), void JUnit4(Class\u003c?\u003e klass), void JUnit4ClassRunner(Class\u003c?\u003e klass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void Parameterized(Class\u003c?\u003e klass), void ParentRunner(Class\u003c?\u003e testClass), void Suite(Class\u003c?\u003e klass, Class\u003c?\u003e[] suiteClasses), void Suite(Class\u003c?\u003e klass, List\u003cRunner\u003e runners), void Suite(Class\u003c?\u003e klass, RunnerBuilder builder), void Suite(RunnerBuilder builder, Class\u003c?\u003e klass, Class\u003c?\u003e[] suiteClasses), void Suite(RunnerBuilder builder, Class\u003c?\u003e[] classes), void SuiteMethod(Class\u003c?\u003e klass), void TestClassRunnerForParameters(Class\u003c?\u003e type, Object[] parameters, String name), void Theories(Class\u003c?\u003e klass), void assertNoCategorizedDescendentsOfUncategorizeableParents(Description description), void assertNoDescendantsHaveCategoryAnnotations(Description description), void collectInitializationErrors(List\u003cThrowable\u003e errors), void createRunnersForParameters(Iterable\u003cObject[]\u003e allParameters, String namePattern), void filter(Filter filter), void invokeTestMethod(Method method, RunNotifier notifier), void run(RunNotifier notifier), void run(TestResult result), void runChild(FrameworkMethod method, RunNotifier notifier), void runChild(Runner runner, RunNotifier notifier), void runChild(T child, RunNotifier notifier), void runChildren(RunNotifier notifier), void runLeaf(Statement statement, Description description, RunNotifier notifier), void runMethods(RunNotifier notifier), void setScheduler(RunnerScheduler scheduler), void setTest(Test test), void sort(Sorter sorter), void sortChild(T child), void testAborted(RunNotifier notifier, Description description, Throwable e), void validate(), void validateClassRules(List\u003cThrowable\u003e errors), void validateConstructor(List\u003cThrowable\u003e errors), void validateDataPointFields(List\u003cThrowable\u003e errors), void validateFields(List\u003cThrowable\u003e errors), void validateInstanceMethods(List\u003cThrowable\u003e errors), void validateMethods(List\u003cThrowable\u003e errors), void validateNoNonStaticInnerClass(List\u003cThrowable\u003e errors), void validateOnlyOneConstructor(List\u003cThrowable\u003e errors), void validatePublicVoidNoArgMethods(Class\u003c? extends Annotation\u003e annotation, boolean isStatic, List\u003cThrowable\u003e errors), void validateTestMethods(List\u003cThrowable\u003e errors), void validateZeroArgConstructor(List\u003cThrowable\u003e errors)]",
+        "ID": 117633934,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "109",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.Test, org.junit.runner.Describable]",
+    "intent": "[Class\u003c?\u003e getTestClass(), Description getDescription(), Description removeIgnored(Description description), List\u003cTest\u003e getTests(), String getName(), Test getTest(), boolean isIgnored(Description description), int countTestCases(), int testCount(), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void JUnit4TestCaseFacade(Description description), void filter(Filter filter), void run(TestResult result), void sort(Sorter sorter)]",
+    "ID": 178719183,
+    "children": []
+  },
+  {
+    "name": "113",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+    "intent": "[Annotation[] classAnnotations(), Annotation[] getRunnerAnnotations(), Annotation[] testAnnotations(Method method), Class\u003c? extends Throwable\u003e getExpectedException(Test annotation), Class\u003c?\u003e getExcludedCategory(Class\u003c?\u003e klass), Class\u003c?\u003e getIncludedCategory(Class\u003c?\u003e klass), Class\u003c?\u003e getTestClass(), Class\u003c?\u003e[] getAnnotatedClasses(Class\u003c?\u003e klass), Comparator\u003c? super T\u003e comparator(), Description describeChild(FrameworkMethod method), Description describeChild(Runner child), Description describeChild(T child), Description getDescription(), Description makeDescription(Test test), Description methodDescription(Method method), Description removeIgnored(Description description), Exception parametersMethodReturnedWrongType(), FrameworkMethod getParametersMethod(), Iterable\u003cObject[]\u003e allParameters(), List\u003cFrameworkField\u003e getAnnotatedFieldsByParameter(), List\u003cFrameworkMethod\u003e computeTestMethods(), List\u003cFrameworkMethod\u003e getChildren(), List\u003cMethod\u003e getTestMethods(), List\u003cRunner\u003e getChildren(), List\u003cT\u003e getChildren(), List\u003cT\u003e getFilteredChildren(), List\u003cTest\u003e getTests(), List\u003cTestRule\u003e classRules(), List\u003cTestRule\u003e getTestRules(Object target), List\u003corg.junit.rules.MethodRule\u003e getMethodRules(Object target), List\u003corg.junit.rules.MethodRule\u003e rules(Object target), Object createTest(), Object createTestUsingConstructorInjection(), Object createTestUsingFieldInjection(), Runner emptySuite(), Statement childrenInvoker(RunNotifier notifier), Statement classBlock(RunNotifier notifier), Statement methodBlock(FrameworkMethod method), Statement methodInvoker(FrameworkMethod method, Object test), Statement possiblyExpectingExceptions(FrameworkMethod method, Object test, Statement next), Statement withAfterClasses(Statement statement), Statement withAfters(FrameworkMethod method, Object target, Statement statement), Statement withBeforeClasses(Statement statement), Statement withBefores(FrameworkMethod method, Object target, Statement statement), Statement withClassRules(Statement statement), Statement withMethodRules(FrameworkMethod method, List\u003cTestRule\u003e testRules, Object target, Statement result), Statement withPotentialTimeout(FrameworkMethod method, Object test, Statement next), Statement withRules(FrameworkMethod method, Object target, Statement statement), Statement withTestRules(FrameworkMethod method, List\u003cTestRule\u003e testRules, Statement statement), String createSuiteDescription(TestSuite ts), String getName(), String nameFor(String namePattern, int index, Object[] parameters), String testName(FrameworkMethod method), String testName(Method method), Test getTest(), Test testFromSuiteMethod(Class\u003c?\u003e klass), TestClass getTestClass(), TestListener createAdaptingListener(RunNotifier notifier), TestMethod wrapMethod(Method method), boolean canHaveCategorizedChildren(Description description), boolean expectsException(Test annotation), boolean fieldsAreAnnotated(), boolean hasOneConstructor(), boolean isIgnored(Description description), boolean shouldRun(Filter filter, T each), int countTestCases(), long getTimeout(Test annotation), void AllTests(Class\u003c?\u003e klass), void BlockJUnit4ClassRunner(Class\u003c?\u003e klass), void Categories(Class\u003c?\u003e klass, RunnerBuilder builder), void Enclosed(Class\u003c?\u003e klass, RunnerBuilder builder), void JUnit38ClassRunner(Class\u003c?\u003e klass), void JUnit38ClassRunner(Test test), void JUnit4(Class\u003c?\u003e klass), void JUnit4ClassRunner(Class\u003c?\u003e klass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass), void JUnit4TestAdapter(Class\u003c?\u003e newTestClass, JUnit4TestAdapterCache cache), void Parameterized(Class\u003c?\u003e klass), void ParentRunner(Class\u003c?\u003e testClass), void Suite(Class\u003c?\u003e klass, Class\u003c?\u003e[] suiteClasses), void Suite(Class\u003c?\u003e klass, List\u003cRunner\u003e runners), void Suite(Class\u003c?\u003e klass, RunnerBuilder builder), void Suite(RunnerBuilder builder, Class\u003c?\u003e klass, Class\u003c?\u003e[] suiteClasses), void Suite(RunnerBuilder builder, Class\u003c?\u003e[] classes), void SuiteMethod(Class\u003c?\u003e klass), void TestClassRunnerForParameters(Class\u003c?\u003e type, Object[] parameters, String name), void Theories(Class\u003c?\u003e klass), void assertNoCategorizedDescendentsOfUncategorizeableParents(Description description), void assertNoDescendantsHaveCategoryAnnotations(Description description), void collectInitializationErrors(List\u003cThrowable\u003e errors), void createRunnersForParameters(Iterable\u003cObject[]\u003e allParameters, String namePattern), void filter(Filter filter), void invokeTestMethod(Method method, RunNotifier notifier), void run(RunNotifier notifier), void run(TestResult result), void runChild(FrameworkMethod method, RunNotifier notifier), void runChild(Runner runner, RunNotifier notifier), void runChild(T child, RunNotifier notifier), void runChildren(RunNotifier notifier), void runLeaf(Statement statement, Description description, RunNotifier notifier), void runMethods(RunNotifier notifier), void setScheduler(RunnerScheduler scheduler), void setTest(Test test), void sort(Sorter sorter), void sortChild(T child), void testAborted(RunNotifier notifier, Description description, Throwable e), void validate(), void validateClassRules(List\u003cThrowable\u003e errors), void validateConstructor(List\u003cThrowable\u003e errors), void validateDataPointFields(List\u003cThrowable\u003e errors), void validateFields(List\u003cThrowable\u003e errors), void validateInstanceMethods(List\u003cThrowable\u003e errors), void validateMethods(List\u003cThrowable\u003e errors), void validateNoNonStaticInnerClass(List\u003cThrowable\u003e errors), void validateOnlyOneConstructor(List\u003cThrowable\u003e errors), void validatePublicVoidNoArgMethods(Class\u003c? extends Annotation\u003e annotation, boolean isStatic, List\u003cThrowable\u003e errors), void validateTestMethods(List\u003cThrowable\u003e errors), void validateZeroArgConstructor(List\u003cThrowable\u003e errors)]",
+    "ID": 117633934,
+    "children": []
+  },
+  {
+    "name": "115",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.runners.JUnit4ClassRunner, org.junit.runners.ParentRunner\u003cT\u003e]",
+    "intent": "[Description getDescription(), Object createTest(), String getName(), TestClass getTestClass(), void filter(Filter filter), void run(RunNotifier notifier), void sort(Sorter sorter), void validate()]",
+    "ID": 71825601,
+    "children": []
+  },
+  {
+    "name": "118",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.runner.BaseTestRunner, junit.textui.ResultPrinter]",
+    "intent": "[String elapsedTimeAsString(long runTime), void addError(Test test, Throwable t), void addFailure(Test test, AssertionFailedError t), void endTest(Test test), void startTest(Test test)]",
+    "ID": 142528744,
+    "children": []
+  },
+  {
+    "name": "119",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.textui.ResultPrinter, org.junit.internal.TextListener]",
+    "intent": "[PrintStream getWriter(), String elapsedTimeAsString(long runTime), void printHeader(long runTime)]",
+    "ID": 81859073,
+    "children": []
+  },
+  {
+    "name": "131",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.notification.RunListener",
+        "coverage": 0.42857143
+      }
+    ],
+    "extent": "[org.junit.internal.TextListener, org.junit.runner.Result.Listener, org.junit.runner.notification.RunListener]",
+    "intent": "[void testFailure(Failure failure), void testIgnored(Description description), void testRunFinished(Result result)]",
+    "ID": 75626984,
+    "children": [
+      {
+        "name": "94",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.85714287
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "132",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.notification.RunListener",
+        "coverage": 0.42857143
+      }
+    ],
+    "extent": "[org.junit.experimental.max.MaxHistory.RememberingListener, org.junit.internal.TextListener, org.junit.runner.notification.RunListener]",
+    "intent": "[void testFailure(Failure failure), void testRunFinished(Result result), void testStarted(Description description)]",
+    "ID": 75894693,
+    "children": [
+      {
+        "name": "95",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runner.notification.RunListener",
+            "coverage": 0.5714286
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "139",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.model.FrameworkMember",
+        "coverage": 0.71428573
+      }
+    ],
+    "extent": "[org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod]",
+    "intent": "[Annotation[] getAnnotations(), Class\u003c?\u003e getType(), String getName(), boolean isPublic(), boolean isStatic()]",
+    "ID": 15254145,
+    "children": []
+  },
+  {
+    "name": "142",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.internal.runners.TestClass, org.junit.runners.model.TestClass]",
+    "intent": "[Class\u003c?\u003e getJavaClass(), List\u003cClass\u003c?\u003e\u003e getSuperClasses(Class\u003c?\u003e testClass), String getName(), boolean runsTopToBottom(Class\u003c? extends Annotation\u003e annotation), void TestClass(Class\u003c?\u003e klass)]",
+    "ID": 252080662,
+    "children": []
+  },
+  {
+    "name": "144",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runners.model.FrameworkMember",
+        "coverage": 0.2857143
+      }
+    ],
+    "extent": "[org.junit.runners.model.FrameworkField, org.junit.runners.model.FrameworkMember\u003cT extends FrameworkMember\u003cT\u003e\u003e, org.junit.runners.model.FrameworkMethod, org.junit.runners.model.TestClass]",
+    "intent": "[Annotation[] getAnnotations(), String getName()]",
+    "ID": 6553624,
+    "children": [
+      {
+        "name": "139",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "org.junit.runners.model.FrameworkMember",
+            "coverage": 0.71428573
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "150",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.Assert, junit.framework.Test, org.junit.runner.Describable, org.junit.runner.manipulation.Filterable, org.junit.runner.manipulation.Sortable]",
+    "intent": "[String getName(), Test getTest(), int countTestCases(), void run(TestResult result)]",
+    "ID": 113412829,
+    "children": [
+      {
+        "name": "154",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.Assert, junit.framework.Test]",
+        "intent": "[String format(String message, Object expected, Object actual), String getName(), Test getTest(), TestResult createResult(), TestResult run(), int countTestCases(), void RepeatedTest(Test test, int repeat), void TestCase(), void TestCase(String name), void TestDecorator(Test test), void TestSetup(Test test), void assertEquals(Object expected, Object actual), void assertEquals(String expected, String actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, String expected, String actual), void assertEquals(String message, boolean expected, boolean actual), void assertEquals(String message, byte expected, byte actual), void assertEquals(String message, char expected, char actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, int expected, int actual), void assertEquals(String message, long expected, long actual), void assertEquals(String message, short expected, short actual), void assertEquals(boolean expected, boolean actual), void assertEquals(byte expected, byte actual), void assertEquals(char expected, char actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(int expected, int actual), void assertEquals(long expected, long actual), void assertEquals(short expected, short actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNotSame(Object expected, Object actual), void assertNotSame(String message, Object expected, Object actual), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void basicRun(TestResult result), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message), void run(TestResult result), void runBare(), void runTest(), void setName(String name), void setUp(), void tearDown()]",
+        "ID": 237439306,
+        "children": []
+      },
+      {
+        "name": "107",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "152",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.TestCase, junit.framework.TestSuite]",
+    "intent": "[String getName(), int countTestCases(), void run(TestResult result), void setName(String name)]",
+    "ID": 183751022,
+    "children": []
+  },
+  {
+    "name": "154",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.Assert, junit.framework.Test]",
+    "intent": "[String format(String message, Object expected, Object actual), String getName(), Test getTest(), TestResult createResult(), TestResult run(), int countTestCases(), void RepeatedTest(Test test, int repeat), void TestCase(), void TestCase(String name), void TestDecorator(Test test), void TestSetup(Test test), void assertEquals(Object expected, Object actual), void assertEquals(String expected, String actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, String expected, String actual), void assertEquals(String message, boolean expected, boolean actual), void assertEquals(String message, byte expected, byte actual), void assertEquals(String message, char expected, char actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, int expected, int actual), void assertEquals(String message, long expected, long actual), void assertEquals(String message, short expected, short actual), void assertEquals(boolean expected, boolean actual), void assertEquals(byte expected, byte actual), void assertEquals(char expected, char actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(int expected, int actual), void assertEquals(long expected, long actual), void assertEquals(short expected, short actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNotSame(Object expected, Object actual), void assertNotSame(String message, Object expected, Object actual), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void basicRun(TestResult result), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message), void run(TestResult result), void runBare(), void runTest(), void setName(String name), void setUp(), void tearDown()]",
+    "ID": 237439306,
+    "children": []
+  },
+  {
+    "name": "161",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[org.junit.experimental.theories.ParameterSignature, org.junit.runners.model.FrameworkMethod]",
+    "intent": "[Class\u003c?\u003e getType(), T getAnnotation(Class\u003cT\u003e annotationType)]",
+    "ID": 96599769,
+    "children": []
+  },
+  {
+    "name": "165",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "org.junit.runner.Description",
+        "coverage": 0.083333336
+      }
+    ],
+    "extent": "[junit.framework.Test, org.junit.runner.Describable, org.junit.runner.Description]",
+    "intent": "[Class\u003c?\u003e getTestClass(), int testCount()]",
+    "ID": 117977160,
+    "children": [
+      {
+        "name": "109",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "169",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 1.0
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.extensions.TestDecorator",
+        "coverage": 0.4
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+    "intent": "[int countTestCases(), void run(TestResult result)]",
+    "ID": 197531035,
+    "children": [
+      {
+        "name": "171",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "174",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade]",
+        "intent": "[Description getDescription(), int countTestCases(), void run(TestResult result)]",
+        "ID": 154552113,
+        "children": [
+          {
+            "name": "107",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "109",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "171",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+    "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+    "ID": 122509339,
+    "children": []
+  },
+  {
+    "name": "174",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.JUnit4TestAdapter, junit.framework.JUnit4TestCaseFacade]",
+    "intent": "[Description getDescription(), int countTestCases(), void run(TestResult result)]",
+    "ID": 154552113,
+    "children": [
+      {
+        "name": "107",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "109",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "188",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.framework.Assert, org.junit.Assert]",
+    "intent": "[String format(String message, Object expected, Object actual), void Assert(), void assertEquals(Object expected, Object actual), void assertEquals(String message, Object expected, Object actual), void assertEquals(String message, double expected, double actual, double delta), void assertEquals(String message, float expected, float actual, float delta), void assertEquals(String message, long expected, long actual), void assertEquals(double expected, double actual, double delta), void assertEquals(float expected, float actual, float delta), void assertEquals(long expected, long actual), void assertFalse(String message, boolean condition), void assertFalse(boolean condition), void assertNotNull(Object object), void assertNotNull(String message, Object object), void assertNull(Object object), void assertNull(String message, Object object), void assertSame(Object expected, Object actual), void assertSame(String message, Object expected, Object actual), void assertTrue(String message, boolean condition), void assertTrue(boolean condition), void fail(), void fail(String message), void failNotEquals(String message, Object expected, Object actual), void failNotSame(String message, Object expected, Object actual), void failSame(String message)]",
+    "ID": 53039869,
+    "children": []
+  },
+  {
+    "name": "192",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "org.junit.runner.Runner",
+        "coverage": 0.6666667
+      }
+    ],
+    "extent": "[org.junit.internal.builders.IgnoredClassRunner, org.junit.internal.runners.ErrorReportingRunner, org.junit.internal.runners.JUnit38ClassRunner, org.junit.internal.runners.JUnit4ClassRunner, org.junit.runner.Runner, org.junit.runners.ParentRunner\u003cT\u003e]",
+    "intent": "[Description getDescription(), void run(RunNotifier notifier)]",
+    "ID": 259371186,
+    "children": [
+      {
+        "name": "102",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  }
+]

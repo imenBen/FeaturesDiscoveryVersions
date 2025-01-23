@@ -1,0 +1,761 @@
+[
+  {
+    "types": [],
+    "ID": 0,
+    "children": [
+      {
+        "name": "0",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.ui.TestStatus",
+            "coverage": 0.11111111
+          }
+        ],
+        "extent": "[junit.ui.TestRunner, junit.ui.TestStatus]",
+        "intent": "[void reset()]",
+        "ID": 6591179,
+        "children": []
+      },
+      {
+        "name": "1",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.samples.AllTests, junit.samples.SimpleTest, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.AllTests, junit.tests.SuiteTest, junit.tests.TestTest, junit.tests.ThreadTest]",
+        "intent": "[Test suite()]",
+        "ID": 179772549,
+        "children": [
+          {
+            "name": "25",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.samples.SimpleTest, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.SuiteTest]",
+            "intent": "[Test suite(), void setUp()]",
+            "ID": 129065989,
+            "children": [
+              {
+                "name": "30",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "extent": "[junit.samples.VectorTest, junit.samples.money.MoneyTest]",
+                "intent": "[Test suite(), void main(String[] args), void setUp()]",
+                "ID": 52166165,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "28",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.samples.AllTests, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.AllTests]",
+            "intent": "[Test suite(), void main(String[] args)]",
+            "ID": 228057315,
+            "children": [
+              {
+                "name": "30",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "4",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.samples.money.IMoney",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[junit.samples.money.IMoney, junit.samples.money.Money, junit.samples.money.MoneyBag]",
+        "intent": "[IMoney add(IMoney m), IMoney addMoney(Money m), IMoney addMoneyBag(MoneyBag s), IMoney multiply(int factor), IMoney negate(), IMoney subtract(IMoney m), boolean isNull()]",
+        "ID": 71931128,
+        "children": []
+      },
+      {
+        "name": "8",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.tests.NoTestCases, junit.tests.OneTestCase]",
+        "intent": "[void noTestCase()]",
+        "ID": 100296779,
+        "children": []
+      },
+      {
+        "name": "11",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.framework.TestCase",
+            "coverage": 0.045454547
+          }
+        ],
+        "extent": "[junit.extensions.TestSetup, junit.framework.TestCase, junit.tests.TestTest.TornDown]",
+        "intent": "[void tearDown()]",
+        "ID": 168388859,
+        "children": [
+          {
+            "name": "43",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+            "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+            "ID": 122509339,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "12",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.framework.TestCase",
+            "coverage": 0.045454547
+          }
+        ],
+        "extent": "[junit.extensions.TestSetup, junit.framework.TestCase, junit.samples.SimpleTest, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.SuiteTest]",
+        "intent": "[void setUp()]",
+        "ID": 36094479,
+        "children": [
+          {
+            "name": "25",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "14",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.framework.TestResult",
+            "coverage": 0.21428572
+          }
+        ],
+        "extent": "[junit.framework.TestResult, junit.textui.TextTestResult, junit.ui.UITestResult]",
+        "intent": "[void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void startTest(Test test)]",
+        "ID": 83662531,
+        "children": []
+      },
+      {
+        "name": "15",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 0.5
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.extensions.TestDecorator",
+            "coverage": 0.33333334
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 0.5
+          }
+        ],
+        "extent": "[junit.extensions.ActiveTest, junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.extensions.TestSetup, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+        "intent": "[void run(TestResult result)]",
+        "ID": 61259835,
+        "children": [
+          {
+            "name": "48",
+            "types": [
+              {
+                "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+                "anchor": "junit.framework.Test",
+                "coverage": 1.0
+              },
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+                "anchor": "junit.extensions.TestDecorator",
+                "coverage": 0.6666667
+              },
+              {
+                "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+                "anchor": "junit.framework.Test",
+                "coverage": 1.0
+              }
+            ],
+            "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+            "intent": "[int countTestCases(), void run(TestResult result)]",
+            "ID": 15046744,
+            "children": [
+              {
+                "name": "43",
+                "types": [
+                  {
+                    "FeatureTypeName": "ADHOC",
+                    "coverage": 0.0
+                  }
+                ],
+                "ID": 0,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "16",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.ui.TraceFrame",
+            "coverage": 0.33333334
+          }
+        ],
+        "extent": "[junit.textui.TextTestResult, junit.ui.TestRunner, junit.ui.TraceFrame]",
+        "intent": "[String truncateString(String s, int length)]",
+        "ID": 158946424,
+        "children": []
+      },
+      {
+        "name": "19",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.tests.NoTestCaseClass, junit.tests.TestTest]",
+        "intent": "[void testSuccess()]",
+        "ID": 75582130,
+        "children": []
+      },
+      {
+        "name": "21",
+        "types": [
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.ui.TestRunner",
+            "coverage": 0.035714287
+          }
+        ],
+        "extent": "[junit.samples.AllTests, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.AllTests, junit.textui.TestRunner, junit.ui.LoadingTestRunner, junit.ui.TestRunner]",
+        "intent": "[void main(String[] args)]",
+        "ID": 186717815,
+        "children": [
+          {
+            "name": "30",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          },
+          {
+            "name": "53",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.textui.TestRunner, junit.ui.TestRunner]",
+            "intent": "[void main(String[] args), void start(String[] args)]",
+            "ID": 149011029,
+            "children": []
+          },
+          {
+            "name": "28",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "0",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.ui.TestStatus",
+        "coverage": 0.11111111
+      }
+    ],
+    "extent": "[junit.ui.TestRunner, junit.ui.TestStatus]",
+    "intent": "[void reset()]",
+    "ID": 6591179,
+    "children": []
+  },
+  {
+    "name": "1",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.samples.AllTests, junit.samples.SimpleTest, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.AllTests, junit.tests.SuiteTest, junit.tests.TestTest, junit.tests.ThreadTest]",
+    "intent": "[Test suite()]",
+    "ID": 179772549,
+    "children": [
+      {
+        "name": "25",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.samples.SimpleTest, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.SuiteTest]",
+        "intent": "[Test suite(), void setUp()]",
+        "ID": 129065989,
+        "children": [
+          {
+            "name": "30",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "extent": "[junit.samples.VectorTest, junit.samples.money.MoneyTest]",
+            "intent": "[Test suite(), void main(String[] args), void setUp()]",
+            "ID": 52166165,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "28",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.samples.AllTests, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.AllTests]",
+        "intent": "[Test suite(), void main(String[] args)]",
+        "ID": 228057315,
+        "children": [
+          {
+            "name": "30",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "4",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.samples.money.IMoney",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[junit.samples.money.IMoney, junit.samples.money.Money, junit.samples.money.MoneyBag]",
+    "intent": "[IMoney add(IMoney m), IMoney addMoney(Money m), IMoney addMoneyBag(MoneyBag s), IMoney multiply(int factor), IMoney negate(), IMoney subtract(IMoney m), boolean isNull()]",
+    "ID": 71931128,
+    "children": []
+  },
+  {
+    "name": "8",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.tests.NoTestCases, junit.tests.OneTestCase]",
+    "intent": "[void noTestCase()]",
+    "ID": 100296779,
+    "children": []
+  },
+  {
+    "name": "11",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.framework.TestCase",
+        "coverage": 0.045454547
+      }
+    ],
+    "extent": "[junit.extensions.TestSetup, junit.framework.TestCase, junit.tests.TestTest.TornDown]",
+    "intent": "[void tearDown()]",
+    "ID": 168388859,
+    "children": [
+      {
+        "name": "43",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+        "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+        "ID": 122509339,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "12",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.framework.TestCase",
+        "coverage": 0.045454547
+      }
+    ],
+    "extent": "[junit.extensions.TestSetup, junit.framework.TestCase, junit.samples.SimpleTest, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.SuiteTest]",
+    "intent": "[void setUp()]",
+    "ID": 36094479,
+    "children": [
+      {
+        "name": "25",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "14",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.framework.TestResult",
+        "coverage": 0.21428572
+      }
+    ],
+    "extent": "[junit.framework.TestResult, junit.textui.TextTestResult, junit.ui.UITestResult]",
+    "intent": "[void addError(Test test, Throwable t), void addFailure(Test test, Throwable t), void startTest(Test test)]",
+    "ID": 83662531,
+    "children": []
+  },
+  {
+    "name": "15",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 0.5
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.extensions.TestDecorator",
+        "coverage": 0.33333334
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 0.5
+      }
+    ],
+    "extent": "[junit.extensions.ActiveTest, junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.extensions.TestSetup, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+    "intent": "[void run(TestResult result)]",
+    "ID": 61259835,
+    "children": [
+      {
+        "name": "48",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 1.0
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+            "anchor": "junit.extensions.TestDecorator",
+            "coverage": 0.6666667
+          },
+          {
+            "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "junit.framework.Test",
+            "coverage": 1.0
+          }
+        ],
+        "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+        "intent": "[int countTestCases(), void run(TestResult result)]",
+        "ID": 15046744,
+        "children": [
+          {
+            "name": "43",
+            "types": [
+              {
+                "FeatureTypeName": "ADHOC",
+                "coverage": 0.0
+              }
+            ],
+            "ID": 0,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "16",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.ui.TraceFrame",
+        "coverage": 0.33333334
+      }
+    ],
+    "extent": "[junit.textui.TextTestResult, junit.ui.TestRunner, junit.ui.TraceFrame]",
+    "intent": "[String truncateString(String s, int length)]",
+    "ID": 158946424,
+    "children": []
+  },
+  {
+    "name": "19",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.tests.NoTestCaseClass, junit.tests.TestTest]",
+    "intent": "[void testSuccess()]",
+    "ID": 75582130,
+    "children": []
+  },
+  {
+    "name": "21",
+    "types": [
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_PARTIAL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.ui.TestRunner",
+        "coverage": 0.035714287
+      }
+    ],
+    "extent": "[junit.samples.AllTests, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.AllTests, junit.textui.TestRunner, junit.ui.LoadingTestRunner, junit.ui.TestRunner]",
+    "intent": "[void main(String[] args)]",
+    "ID": 186717815,
+    "children": [
+      {
+        "name": "30",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      },
+      {
+        "name": "53",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.textui.TestRunner, junit.ui.TestRunner]",
+        "intent": "[void main(String[] args), void start(String[] args)]",
+        "ID": 149011029,
+        "children": []
+      },
+      {
+        "name": "28",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "25",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.samples.SimpleTest, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.SuiteTest]",
+    "intent": "[Test suite(), void setUp()]",
+    "ID": 129065989,
+    "children": [
+      {
+        "name": "30",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[junit.samples.VectorTest, junit.samples.money.MoneyTest]",
+        "intent": "[Test suite(), void main(String[] args), void setUp()]",
+        "ID": 52166165,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "28",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.samples.AllTests, junit.samples.VectorTest, junit.samples.money.MoneyTest, junit.tests.AllTests]",
+    "intent": "[Test suite(), void main(String[] args)]",
+    "ID": 228057315,
+    "children": [
+      {
+        "name": "30",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "30",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.samples.VectorTest, junit.samples.money.MoneyTest]",
+    "intent": "[Test suite(), void main(String[] args), void setUp()]",
+    "ID": 52166165,
+    "children": []
+  },
+  {
+    "name": "43",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.extensions.TestDecorator, junit.framework.TestCase]",
+    "intent": "[int countTestCases(), void run(TestResult result), void setUp(), void tearDown()]",
+    "ID": 122509339,
+    "children": []
+  },
+  {
+    "name": "48",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_INTERFACE_IMPLEMENTATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 1.0
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_CLASS_SUBCLASS_REDEFINITIONS",
+        "anchor": "junit.extensions.TestDecorator",
+        "coverage": 0.6666667
+      },
+      {
+        "FeatureTypeName": "PARTIAL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "junit.framework.Test",
+        "coverage": 1.0
+      }
+    ],
+    "extent": "[junit.extensions.RepeatedTest, junit.extensions.TestDecorator, junit.framework.Test, junit.framework.TestCase, junit.framework.TestSuite]",
+    "intent": "[int countTestCases(), void run(TestResult result)]",
+    "ID": 15046744,
+    "children": [
+      {
+        "name": "43",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "ID": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "53",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[junit.textui.TestRunner, junit.ui.TestRunner]",
+    "intent": "[void main(String[] args), void start(String[] args)]",
+    "ID": 149011029,
+    "children": []
+  }
+]

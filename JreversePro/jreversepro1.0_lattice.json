@@ -1,0 +1,140 @@
+[
+  {
+    "types": [],
+    "ID": 0,
+    "children": [
+      {
+        "name": "2",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[jreversepro.Core.JCollatedTable, jreversepro.Core.JSwitchTable]",
+        "intent": "[void sort()]",
+        "ID": 160027234,
+        "children": []
+      },
+      {
+        "name": "8",
+        "types": [
+          {
+            "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+            "anchor": "jreversepro.Gui.JCustomListPanel",
+            "coverage": 0.5
+          }
+        ],
+        "extent": "[jreversepro.Gui.JCpDialog, jreversepro.Gui.JCustomListPanel]",
+        "intent": "[void addComponents()]",
+        "ID": 18997437,
+        "children": []
+      },
+      {
+        "name": "14",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[jreversepro.Core.JJvmStack, jreversepro.Ds.JField]",
+        "intent": "[String getDataType()]",
+        "ID": 90114118,
+        "children": []
+      },
+      {
+        "name": "26",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[jreversepro.Ds.JField, jreversepro.Ds.JMethod]",
+        "intent": "[String getName(), String getQualifier(), boolean isMarked(), void setName(String rhsName)]",
+        "ID": 162060243,
+        "children": []
+      },
+      {
+        "name": "34",
+        "types": [
+          {
+            "FeatureTypeName": "ADHOC",
+            "coverage": 0.0
+          }
+        ],
+        "extent": "[jreversepro.JCmdMain, jreversepro.JMainFrame]",
+        "intent": "[boolean reverseEngineer(File f), void main(String[] args)]",
+        "ID": 100846914,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "2",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[jreversepro.Core.JCollatedTable, jreversepro.Core.JSwitchTable]",
+    "intent": "[void sort()]",
+    "ID": 160027234,
+    "children": []
+  },
+  {
+    "name": "8",
+    "types": [
+      {
+        "FeatureTypeName": "FULL_EXTENT_FULL_BEHAVIOR_EXPLICIT_AGGREGATIONS",
+        "anchor": "jreversepro.Gui.JCustomListPanel",
+        "coverage": 0.5
+      }
+    ],
+    "extent": "[jreversepro.Gui.JCpDialog, jreversepro.Gui.JCustomListPanel]",
+    "intent": "[void addComponents()]",
+    "ID": 18997437,
+    "children": []
+  },
+  {
+    "name": "14",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[jreversepro.Core.JJvmStack, jreversepro.Ds.JField]",
+    "intent": "[String getDataType()]",
+    "ID": 90114118,
+    "children": []
+  },
+  {
+    "name": "26",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[jreversepro.Ds.JField, jreversepro.Ds.JMethod]",
+    "intent": "[String getName(), String getQualifier(), boolean isMarked(), void setName(String rhsName)]",
+    "ID": 162060243,
+    "children": []
+  },
+  {
+    "name": "34",
+    "types": [
+      {
+        "FeatureTypeName": "ADHOC",
+        "coverage": 0.0
+      }
+    ],
+    "extent": "[jreversepro.JCmdMain, jreversepro.JMainFrame]",
+    "intent": "[boolean reverseEngineer(File f), void main(String[] args)]",
+    "ID": 100846914,
+    "children": []
+  }
+]
